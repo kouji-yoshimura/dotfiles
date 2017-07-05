@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/yoshimura/.oh-my-zsh
-export GOPATH=/Users/yoshimura/go
-export NODEBREW_ROOT=/Users/yoshimura/.nodebrew
+export ZSH=$HOME/.oh-my-zsh
+export GOPATH=$HOME/go
+export NODEBREW_ROOT=$HOME/.nodebrew
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
