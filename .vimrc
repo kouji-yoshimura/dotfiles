@@ -1,7 +1,7 @@
 " 画面表示の設定
 set number         " 行番号を表示する
-set cursorline     " カーソル行の背景色を変える
-set nocursorcolumn   " カーソル位置のカラムの背景色を変える
+" set cursorline     " カーソル行の背景色を変える
+" set nocursorcolumn   " カーソル位置のカラムの背景色を変える
 set laststatus=1   " ステータス行を常に表示
 set cmdheight=1    " メッセージ表示欄を2行確保
 set showmatch      " 対応する括弧を強調表示
@@ -56,6 +56,10 @@ set noerrorbells     "エラーメッセージの表示時にビープを鳴ら�
 set encoding=utf-8
 " set fileencodings=ucs-bom,iso-2022-jp-3,iso-2022-jp,eucjp-ms,euc-jisx0213,euc-jp,sjis,cp932,utf-8
 
+"文字の解析数を制御
+set synmaxcol=200
+"行番号の相対表示無効
+set norelativenumber
 
 "===============================
 " キーマッピング変更
@@ -93,7 +97,7 @@ let g:php_noShortTags   = 1
 let g:php_sql_query     = 1
 let g:sql_type_default = 'mysql'
 
-let g:neocomplete_php_locale = 'ja'
+"let g:neocomplete_php_locale = 'ja'
 
 " ブックマークを最初から表示
 "let g:NERDTreeShowBookmarks=1
@@ -121,43 +125,49 @@ set rtp+=~/.vim/bundle/neobundle.vim/
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'fatih/vim-go'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Townk/vim-autoclose'
-NeoBundle 'grep.vim'
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'mattn/emmet-vim'
-NeoBundle 'plasticboy/vim-markdown'
-NeoBundle 'kannokanno/previm'
-NeoBundle 'tyru/open-browser.vim'
-NeoBundle 'othree/html5.vim'
-NeoBundle 'hokaccha/vim-html5validator'
-NeoBundle 'hail2u/vim-css3-syntax'
-NeoBundle 'jelera/vim-javascript-syntax'
+NeoBundleFetch 'tekkoc/PHPSnippetsCreator'
+NeoBundle 'Shougo/neco-syntax'
 NeoBundle 'Shougo/neocomplete.vim'
-NeoBundle 'violetyk/neocomplete-php.vim'
-NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'itchyny/lightline.vim'
-NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'Shougo/neosnippet.vim'
+NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'airblade/vim-gitgutter'
-NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'bronson/vim-trailing-whitespace'
-NeoBundle 'majutsushi/tagbar'
-NeoBundle 'terryma/vim-multiple-cursors'
-NeoBundle 'stephpy/vim-php-cs-fixer'
-NeoBundle 'thinca/vim-ref'
-NeoBundle 'vim-scripts/taglist.vim'
-NeoBundle 'szw/vim-tags'
-NeoBundle 'nanotech/jellybeans.vim'
-NeoBundle 'w0ng/vim-hybrid'
-NeoBundle 'vim-scripts/twilight'
+NeoBundle 'fatih/vim-go'
+NeoBundle 'grep.vim'
+NeoBundle 'hail2u/vim-css3-syntax'
+NeoBundle 'hokaccha/vim-html5validator'
+NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'jelera/vim-javascript-syntax'
 NeoBundle 'jonathanfilip/vim-lucius'
 NeoBundle 'jpo/vim-railscasts-theme'
-NeoBundle 'altercation/vim-colors-solarized'
-NeoBundle 'vim-scripts/Wombat'
+NeoBundle 'kannokanno/previm'
+NeoBundle 'majutsushi/tagbar'
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'othree/html5.vim'
+NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'pocke/neosnippet-incomment'
+NeoBundle 'pocke/neosnippet-snippets'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'stephpy/vim-php-cs-fixer'
+NeoBundle 'szw/vim-tags'
+NeoBundle 'terryma/vim-multiple-cursors'
+NeoBundle 'thinca/vim-ref'
 NeoBundle 'tomasr/molokai'
+NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'tyru/open-browser.vim'
+NeoBundle 'ujihisa/neco-look'
+NeoBundle 'vim-scripts/Wombat'
 NeoBundle 'vim-scripts/rdark'
+NeoBundle 'vim-scripts/taglist.vim'
+NeoBundle 'vim-scripts/twilight'
+NeoBundle 'w0ng/vim-hybrid'
 
 call neobundle#end()
 filetype plugin indent on
@@ -165,6 +175,7 @@ filetype plugin indent on
 NeoBundleCheck
 
 colorscheme	hybrid
+" colorscheme	molokai
 
 "===============================
 "NERD_tree.vim
@@ -204,22 +215,29 @@ nnoremap <silent><leader>pcd :call PhpCsFixerFixDirectory()<CR>
 nnoremap <silent><leader>pcf :call PhpCsFixerFixFile()<CR>
     """""
 
-
 "Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = 0
-" Use neocomplete.
+" 起動時に有効化
 let g:neocomplete#enable_at_startup = 1
-" Use smartcase.
+" 大文字が入力されるまで大文字小文字の区別を無視
 let g:neocomplete#enable_smart_case = 1
-" Set minimum syntax keyword length.
+" キャッシュする最小文字長
 let g:neocomplete#sources#syntax#min_keyword_length = 3
+" preview ウィンドウを自動で閉じない
+let g:neocomplete#enable_auto_close_preview = 0
+" 表示される候補の数
+let g:neocomplete#max_list = 3
+
 let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
+" キャッシュディレクトリ指定
+let g:neocomplete#data_directory = $HOME . '/.vim/cache/neocomplete'
 
 " Define dictionary.
 let g:neocomplete#sources#dictionary#dictionaries = {
     \ 'default' : '',
     \ 'vimshell' : $HOME.'/.vimshell_hist',
+    \ 'php' : $HOME.'/.vim/dict/php.dict',
     \ 'scheme' : $HOME.'/.gosh_completions'
         \ }
 
@@ -246,17 +264,6 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 " <C-h>, <BS>: close popup and delete backword char.
 inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
 inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
-" Close popup by <Space>.
-"inoremap <expr><Space> pumvisible() ? "\<C-y>" : "\<Space>"
-
-" AutoComplPop like behavior.
-"let g:neocomplete#enable_auto_select = 1
-
-" Shell like behavior(not recommended).
-"set completeopt+=longest
-"let g:neocomplete#enable_auto_select = 1
-"let g:neocomplete#disable_auto_complete = 1
-"inoremap <expr><TAB>  pumvisible() ? "\<Down>" : "\<C-x>\<C-u>"
 
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
@@ -269,13 +276,26 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 if !exists('g:neocomplete#sources#omni#input_patterns')
   let g:neocomplete#sources#omni#input_patterns = {}
 endif
-"let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
-"let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
-"let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
+
+" Close popup by <Space>.
+"inoremap <expr><Space> pumvisible() ? "\<C-y>" : "\<Space>"
+
+" AutoComplPop like behavior.
+"let g:neocomplete#enable_auto_select = 1
+
+" Shell like behavior(not recommended).
+"set completeopt+=longest
+"let g:neocomplete#enable_auto_select = 1
+"let g:neocomplete#disable_auto_complete = 1
+"inoremap <expr><TAB>  pumvisible() ? "\<Down>" : "\<C-x>\<C-u>"
+
+"let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
+"let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
+"let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 
 "-------------------------
 "" End Neobundle Settings.
@@ -396,3 +416,30 @@ let Tlist_Show_One_File = 1
 let Tlist_Use_Right_Window = 1
 let Tlist_Exit_OnlyWindow = 1
 
+"===============================
+" neco-look
+"===============================
+let g:neocomplete#text_mode_filetypes = {"_" : 1}
+
+"===============================
+" neosnippet
+"===============================
+" Plugin key-mappings.
+" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
+
+" SuperTab like snippets behavior.
+" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+"imap <expr><TAB>
+" \ pumvisible() ? "\<C-n>" :
+" \ neosnippet#expandable_or_jumpable() ?
+" \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+" For conceal markers.
+if has('conceal')
+  set conceallevel=2 concealcursor=niv
+endif

@@ -51,16 +51,21 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git copybuffer copydir copyfile)
 
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/.rbenv/shims:$PATH"
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# export PATH="$HOME/.rbenv/shims:$PATH"
 export PATH="$GOPATH/bin:$PATH"
-export PATH="$HOME/.nodebrew/current/bin:$PATH"
-eval "$(rbenv init -)"
+# export PATH="$HOME/.nodebrew/current/bin:$PATH"
+export PATH="$HOME/.anyenv/bin:$PATH"
+export PATH="$HOME/.anyenv/ndenvbin:$PATH"
+# eval "$(rbenv init -)"
+eval "$(anyenv init -)"
+
+export PATH=$PATH:`npm bin -g`
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -92,3 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ssh=~/bin/ssh-host-color
+
+alias grep=ggrep
+
