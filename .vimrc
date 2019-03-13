@@ -33,7 +33,7 @@ set wrapscan   "最後尾まで検索を終えたら次の検索で先頭に移�
 set gdefault   "置換の時 g オプションをデフォルトで有効にする"
 
 " タブ/インデントの設定
-set noexpandtab     "タブ入力を複数の空白入力に置き換える
+set expandtab     "タブ入力を複数の空白入力に置き換える
 set tabstop=4     "画面上でタブ文字が占める幅
 set shiftwidth=4  "自動インデントでずれる幅
 set softtabstop=4 "連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
@@ -129,9 +129,13 @@ NeoBundleFetch 'tekkoc/PHPSnippetsCreator'
 NeoBundle 'Shougo/neco-syntax'
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'Shougo/neosnippet.vim'
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/vimfiler'
+NeoBundle 'Shougo/vimproc'
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'altercation/vim-colors-solarized'
+NeoBundle 'beanworks/vim-phpfmt'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'fatih/vim-go'
 NeoBundle 'grep.vim'
@@ -142,10 +146,12 @@ NeoBundle 'jelera/vim-javascript-syntax'
 NeoBundle 'jonathanfilip/vim-lucius'
 NeoBundle 'jpo/vim-railscasts-theme'
 NeoBundle 'kannokanno/previm'
+NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'majutsushi/tagbar'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'osyo-manga/vim-over'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'pocke/neosnippet-incomment'
@@ -168,6 +174,7 @@ NeoBundle 'vim-scripts/rdark'
 NeoBundle 'vim-scripts/taglist.vim'
 NeoBundle 'vim-scripts/twilight'
 NeoBundle 'w0ng/vim-hybrid'
+NeoBundle 'flyinshadow/php_localvarcheck.vim'
 
 call neobundle#end()
 filetype plugin indent on
@@ -227,7 +234,7 @@ let g:neocomplete#sources#syntax#min_keyword_length = 3
 " preview ウィンドウを自動で閉じない
 let g:neocomplete#enable_auto_close_preview = 0
 " 表示される候補の数
-let g:neocomplete#max_list = 3
+let g:neocomplete#max_list = 10
 
 let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
 " キャッシュディレクトリ指定
@@ -313,6 +320,7 @@ set statusline+=%{fugitive#statusline()}
 let g:gitgutter_sign_added = '✚'
 let g:gitgutter_sign_modified = '➜'
 let g:gitgutter_sign_removed = '✘'
+let g:gitgutter_max_signs = 1000
 nnoremap <silent> ,gg :<C-u>GitGutterToggle<CR>
 nnoremap <silent> ,gh :<C-u>GitGutterLineHighlightsToggle<CR>
 
@@ -443,3 +451,54 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 if has('conceal')
   set conceallevel=2 concealcursor=niv
 endif
+
+"===============================
+" neosnippet
+"===============================
+" 全体置換
+nnoremap <silent> <Space>o :OverCommandLine<CR>%s//g<Left><Left>
+
+" 選択範囲置換
+vnoremap <silent> <Space>o :OverCommandLine<CR>s//g<Left><Left>
+
+" カーソルしたの単語置換
+nnoremap sub :OverCommandLine<CR>%s/<C-r><C-w>//g<Left><Left>
+
+"===============================
+" kchmck/vim-coffee-script
+"===============================
+" vimにcoffeeファイルタイプを認識させる
+au BufRead,BufNewFile,BufReadPre *.coffee   set filetype=coffee
+" インデント設定
+autocmd FileType coffee    setlocal sw=2 sts=2 ts=2 et
+" オートコンパイル
+  "保存と同時にコンパイルする
+autocmd BufWritePost *.coffee silent make! 
+  "エラーがあったら別ウィンドウで表示
+autocmd QuickFixCmdPost * nested cwindow | redraw! 
+" Ctrl-cで右ウィンドウにコンパイル結果を一時表示する
+noremap <silent> <C-C> :CoffeeCompile vert <CR><C-w>h
+
+" Jq
+command! -nargs=? Jq call s:Jq(<f-args>)
+function! s:Jq(...)
+    if 0 == a:0
+        let l:arg = "."
+    else
+        let l:arg = a:1
+    endif
+    execute "%! jq \"" . l:arg . "\""
+endfunction
+
+"===============================
+" vim-phpfmt
+"===============================
+let g:phpfmt_standard = 'PSR2'
+let g:phpfmt_autosave = 1
+
+"===============================
+" php_localvarcheck
+"===============================
+let g:php_localvarcheck_enable = 1
+let g:php_localvarcheck_global = 0
+
