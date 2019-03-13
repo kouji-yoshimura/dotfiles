@@ -1,0 +1,27 @@
+
+
+# ==== Format ====
+# :emoji: commit comment
+
+# ==== Emojis ====
+# :sparkles:          部分的な機能追加
+# :gift:              大きな機能追加
+# :dash:              不要な機能/処理の削除
+# :dolphin:           文言変更
+# :ambulance:         バグ修正
+# :pushpin:           レイアウト調整
+# :bow:               レビュー指摘修正
+# :white_check_mark:  コードスタイルの修正
+# :recycle:           リファクタリング
+# :anchor:            CIツールなどの修正・改善
+# :books:             ドキュメント
+# :rocket:            パフォーマンス改善
+# :cop:               セキュリティ改善
+# :construction:      実装途中
+# :warning:           デバッグ用一時処理
+# :poop:              非推奨(本当はあげたくない)処理追加
+# :crystal_ball:      ディレクター作業
+# :bookmark:          バージョンタグ
+# :speak_no_evil:     空コミット
+# :tada:              initial commit
+

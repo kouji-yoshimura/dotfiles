@@ -1,0 +1,13 @@
+#!/bin/bash
+
+while read local_ref local_sha1 remote_ref remote_sha1
+do
+  if [[ "${remote_ref##refs/heads/}" = "product" ]]; then
+    echo "Do not push to product branch!!!"
+    exit 1
+  fi
+done
+
+
+
+
