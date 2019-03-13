@@ -55,13 +55,19 @@ plugins=(git copybuffer copydir copyfile)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/sbin:$PATH"
+export PATH="/usr/sbin:$PATH"
+export PATH="/bin:$PATH"
+export PATH="/usr/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
 # export PATH="$HOME/.rbenv/bin:$PATH"
 # export PATH="$HOME/.rbenv/shims:$PATH"
 export PATH="$GOPATH/bin:$PATH"
 # export PATH="$HOME/.nodebrew/current/bin:$PATH"
 export PATH="$HOME/.anyenv/bin:$PATH"
 export PATH="$HOME/.anyenv/ndenvbin:$PATH"
+export PATH="$HOME/.anyenv/rbenvbin:$PATH"
 # eval "$(rbenv init -)"
 eval "$(anyenv init -)"
 
@@ -97,6 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ssh=~/bin/ssh-host-color
-
 alias grep=ggrep
+alias vf='vim +VimFiler'
 
