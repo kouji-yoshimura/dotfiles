@@ -35,8 +35,8 @@ set gdefault   "置換の時 g オプションをデフォルトで有効にす�
 " タブ/インデントの設定
 set expandtab     "タブ入力を複数の空白入力に置き換える
 set tabstop=4     "画面上でタブ文字が占める幅
-set shiftwidth=4  "自動インデントでずれる幅
-set softtabstop=4 "連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
+set shiftwidth=2  "自動インデントでずれる幅
+set softtabstop=2 "連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
 set autoindent    "改行時に前の行のインデントを継続する
 set smartindent   "改行時に入力された行の末尾に合わせて次の行のインデントを増減する"
 
@@ -125,7 +125,7 @@ set rtp+=~/.vim/bundle/neobundle.vim/
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundleFetch 'tekkoc/PHPSnippetsCreator'
+" NeoBundleFetch 'tekkoc/PHPSnippetsCreator'
 NeoBundle 'Shougo/neco-syntax'
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'Shougo/neosnippet.vim'
@@ -137,7 +137,9 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'beanworks/vim-phpfmt'
 NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'editorconfig/editorconfig-vim'
 NeoBundle 'fatih/vim-go'
+NeoBundle 'flyinshadow/php_localvarcheck.vim'
 NeoBundle 'grep.vim'
 NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'hokaccha/vim-html5validator'
@@ -147,6 +149,7 @@ NeoBundle 'jonathanfilip/vim-lucius'
 NeoBundle 'jpo/vim-railscasts-theme'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'majutsushi/tagbar'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'nanotech/jellybeans.vim'
@@ -174,7 +177,6 @@ NeoBundle 'vim-scripts/rdark'
 NeoBundle 'vim-scripts/taglist.vim'
 NeoBundle 'vim-scripts/twilight'
 NeoBundle 'w0ng/vim-hybrid'
-NeoBundle 'flyinshadow/php_localvarcheck.vim'
 
 call neobundle#end()
 filetype plugin indent on
@@ -313,6 +315,9 @@ autocmd QuickFixCmdPost *grep* cwindow
 
 " ステータス行に現在のgitブランチを表示する
 set statusline+=%{fugitive#statusline()}
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
 "===============================
 " vim-gitgutter
@@ -501,4 +506,12 @@ let g:phpfmt_autosave = 1
 "===============================
 let g:php_localvarcheck_enable = 1
 let g:php_localvarcheck_global = 0
+
+"===============================
+" syntastic
+"===============================
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_typescript_tsc_args = "--experimentalDecorators --target ES5"
 

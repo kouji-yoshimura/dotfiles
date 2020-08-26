@@ -54,7 +54,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git copybuffer copydir copyfile)
 
 # User configuration
-
 export PATH="/sbin:$PATH"
 export PATH="/usr/sbin:$PATH"
 export PATH="/bin:$PATH"
@@ -68,6 +67,9 @@ export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/.anyenv/bin:$PATH"
 export PATH="$HOME/.anyenv/ndenvbin:$PATH"
 export PATH="$HOME/.anyenv/rbenvbin:$PATH"
+export PATH="$HOME/.anyenv/pyenvbin:$PATH"
+export PATH="$HOME/.fastlane/bin:$PATH"
+export PATH="/usr/local/opt/mongodb-community@4.0/bin:$PATH"
 # eval "$(rbenv init -)"
 eval "$(anyenv init -)"
 
@@ -102,7 +104,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ssh=~/bin/ssh-host-color
 alias grep=ggrep
 alias vf='vim +VimFiler'
 
