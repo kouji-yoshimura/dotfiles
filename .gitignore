@@ -1,0 +1,3 @@
+antigen.zsh
+.anyenv/envs/*
+.anyenv/plugins/*

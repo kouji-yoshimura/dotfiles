@@ -1,0 +1,5 @@
+tslint.lintProject
+eslint.lintProject
+eslint.executeAutofix
+tslint.fixAllProblems
+eslint.showOutputChannel

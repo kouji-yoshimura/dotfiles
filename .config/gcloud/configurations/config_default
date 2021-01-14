@@ -1,0 +1,8 @@
+[core]
+account = koji.yoshimura@leverages.jp
+project = stg-teratail-207209
+
+[compute]
+zone = asia-northeast1-c
+region = asia-northeast1
+

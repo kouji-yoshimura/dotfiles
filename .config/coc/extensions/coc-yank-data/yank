@@ -1,0 +1,852 @@
+52bf11c7018215010b519b855b0ffc4f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/operations/mutations/postQuestion.tsx|25|49|v|typescriptreact
+	 || !postQuestion.question
+6e2aadee29a4f72729536e6cc28848e1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/operations/mutations/postQuestion.tsx|29|11|v|typescriptreact
+	!postQuestion.question?.id
+74156b2b12bcf194feaecde5d7e2c597|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/operations/mutations/postQuestion.tsx|29|1|V|typescriptreact
+	      if (!postQuestion.question?.id) {
+	        return;
+	      }
+e9e92b05087c1f8cff56ca91ed4d6572|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/generated/controller/authentication_pb_controller.ts|9|40|v|typescript
+	AuthenticationService
+f3b188f3b4e0058b25c1e21d1a595428|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/shared/core/Result.ts|9|1|V|typescript
+	      throw new Error(
+	        "InvalidOperation: A result cannot be successful and contain an error"
+	      )
+55252072ca5154b22997a891d06553d4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/shared/core/Result.ts|9|7|V|typescript
+	      this.isSuccess = false
+8121f9d7c298d5b9c053d5b186702720|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/domain/account/useCase/Authentication/AuthenticationUseCase.ts|41|5|V|typescript
+	    try {
+5325ce2d08e272a7b0a9373492ce60b4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/domain/account/useCase/Authentication/AuthenticationUseCase.ts|41|1|V|typescript
+	    try {
+	
+	    }
+68ccbdd67f91e394b039423b8a201b5c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/shared/core/Result.ts|18|1|V|typescript
+	    // if (!value) {
+	    //   throw new Error(
+	    //     "InvalidOperation: value cannot be undefined"
+	    //   )
+	    // }
+	
+85dfed29a1d8801afab12c05b701a508|untitled:1|1|1|^v|
+	/
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+5428ca91f98786bd73f039ece86cbcd0|untitled:1|1|1|^v|
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+19223d2c16994a37224cbb5b88724ff0|untitled:1|1|41|^v|
+	\
+	|
+	|
+	|
+	|
+	|
+	|
+a2caf9309b850b0e4c18e1f0fd585a8b|untitled:1|1|1|V|
+	Albert Camus wrote that the only        
+	serious question is whether to kill     
+	yourself or not. Tom Robbins wrote that 
+	the only serious question is whether    
+	time has a beginning and an end. Camus  
+	clearly got up on the wrong side of     
+	bed, and Robbins must have forgotten to 
+	set the alarm.
+93fb40ec02c008121fa9199899b31202|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/Footer.tsx|4|27|v|typescriptreact
+	constants
+cb5feb1b7314637725a2e73bdc9f7295|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/Footer.tsx|4|33|v|typescriptreact
+	Color
+c5b5ff973838ac99e7c742e4dd7a5cbd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/login/MailLogin.tsx|14|3|v|typescriptreact
+	signIn
+e4c402c5f0d2d717c0a48e4ac29c103f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/QuestionDetail.tsx|6|1|V|typescriptreact
+	import { GetQuestionDetail_question } from '../../operations/queries/__generated__/GetQuestionDetail';
+9fff44833b1225e1a779193ad71a5807|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/containers/QuestionDetail.tsx|5|1|V|typescriptreact
+	import { GetQuestionDetail_question } from '../operations/queries/__generated__/GetQuestionDetail';
+874b3fd3559420065f156978bc596121|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/containers/QuestionDetail.tsx|18|36|v|typescriptreact
+	data.
+edd17acde212acdfd545fcc52a49b1b3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/user/AnswerListArea.tsx|4|1|V|typescriptreact
+	import { AnswerListItemProps } from '../../molecules/answer/AnswerListItem';
+468871a9fd260d8372819e0cc8a08b77|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/containers/UserAnswerListArea.tsx|7|18|v|typescriptreact
+	AnswerListProps
+f2e4923d4c6d74834860232b96a0acd5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/user/QuestionListArea.tsx|4|1|V|typescriptreact
+	import { QuestionListItemProps } from '../../molecules/question/QuestionListItem';
+fcd23109cc9be6c56c4474ac517cf399|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|28|17|v|json
+	/**/*.ts
+68267d1309a1af8e8297ef4c3efbcdba|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|28|10|v|json
+	src/
+6ee75fe745d8ce3ca834df54427f8430|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|28|1|V|json
+	    "**/*.stories.tsx"
+5e0bfe3e3e1cf5f82a532eb269d93342|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|29|11|v|json
+	stories
+ac0b925bbe2685c9063e8cb1c0fb07dc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|29|1|V|json
+	    "**/*.stories.tsx",
+b1191e807a761f4fe0bbc4327218a6cb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintrc.json|40|13|v|json
+	dlue
+fee9ed543cc9008a1e58e8981c0e7013|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintrc.json|40|1|V|json
+	        "excludedFiles": "*.test.ts"
+932827a410ae667d24348877f8e2fe1b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintrc.json|41|1|V|json
+	          "*.test.ts",
+1decd22689055765cdd1f9f1552c207f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintignore|1|1|V|
+	**/*.test.ts
+924bba2e95fa113006b9e3334229b342|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|29|18|V|json
+	    "**/*.stories.tsx",
+	    "**/*.test.tsx"
+9f277439d175519a76ecff4f55228343|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Anchor.tsx|29|1|V|typescriptreact
+	  children,
+09cdc5dfb8a71277c68ff335de9bb9cf|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Button.tsx|23|1|V|typescriptreact
+	  href?: string;
+e8fab833730f3a939d0b3812fe043b5d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Button.tsx|24|3|v|typescriptreact
+	href
+118b243013a5937792df96432abd7566|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Button.tsx|1|17|v|typescriptreact
+	ReactNode
+231afe47f3f37d3808096b36c28b4ded|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Txt.tsx|1|17|v|typescriptreact
+	Element
+84cd10951ea60f4eeef3c524fabb73dc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Txt.tsx|1|13|v|typescriptreact
+	, { Element }
+8f549febd76cee3c9dcc898dbaa00bfb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Txt.tsx|13|13|v|typescriptreact
+	 React.
+929d88c7d6a78e85c55b66a4a02166f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Txt.tsx|1|1|V|typescriptreact
+	import React, { ReactNode } from 'react';
+33d7f8d3b4a233f7503663f4d000aac3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/TextLabel.tsx|1|1|V|typescriptreact
+	import React from 'react';
+e8701ad48ba05a91604e480dd60899a3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/stories/molecules/sidebar/UserListItem.stories.tsx|14|3|v|typescriptreact
+	user_id
+3ea5f43f14b53853dc4a61fb674fc31b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/login/MailLogin.tsx|12|18|v|typescriptreact
+	MailLoginProps
+94197ed343a32beb100519717c490a13|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/stories/organisms/login/MailLogin.stories.tsx|3|8|v|typescriptreact
+	MailLogin
+74f2397fbf9b2ccc7cd8aa6d7f73fbdd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/stories/organisms/login/MailLogin.stories.tsx|16|16|v|typescriptreact
+	email: string, password: strirng
+1cc7f7dc9c746d4a6670e37657c07543|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|28|1|V|json
+	    "node_modules"
+3ec03583f8eaec275cb2183db769ff47|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|29|6|v|json
+	node_modules
+7895bb090142c888d372e2fa8e798183|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintignore|1|1|V|
+	src/stories
+0414ace37b21bcfbcb50c20f1ab16591|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|3|1|V|typescript
+	    dialogue: {
+	      endpoint: ''
+	    },
+0456454f03a4d959eee78a4a13a23524|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|3|5|v|typescript
+	dialogue
+d09f4b02b8c4cb5353599b5debec05be|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|3|5|V|typescript
+	    ''
+69667baed200dc977a6ecc22d25ea19d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|4|1|V|typescript
+	    methods: 'POST,OPTIONS',
+a9ac5a6cc3cbe84f9c18323af2b9007f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|5|5|v|typescript
+	methods
+3451c7d1c633d78f54a5db9cdb8d5465|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|5|18|v|typescript
+	'POST,OPTIONS'
+f96e94253fed6ae65d15a0616bcb8ed9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|11|11|v|typescript
+	datasources
+e6b43b933e64352e19571b7c6930fdb7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|12|3|V|typescript
+	  acc
+64a401c8f9db2e6b6f1d2d5e417d7213|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|13|5|V|typescript
+	    endpoint: string;
+4ac3986f2badc1480056dffb47b37079|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|13|3|V|typescript
+	  };
+9fe965e3078e86876b993dc461778214|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|12|12|v|typescript
+	DataSourceConfig
+f5afcf47cba1a995c4485e84e1984ecb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|17|17|v|typescript
+	socrates-dialogue:50051
+3c21e26e7df666ed9d2fc4a00c23df5c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|1|v|typescript
+	export default
+fa535ffb25e1fd20341652f9be21e06e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|10|v|typescript
+	Config
+c92a71303bcc841344e07d1bf49d1f9b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|26|v|typescript
+	./config
+77752ec3403503e9e7f24a8f0c4a5dfd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|1|V|typescript
+	import { Config } from ;
+e5fa5cac7e5c0a478a85ec1796ac2f74|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|2|1|V|typescript
+	  cors: {
+	    origin: 'http://localhost:3000',
+	    methods: 'POST,OPTIONS',
+	    credentials: true,
+	  },
+	  dataSource: {
+	    account: {
+	      endpoint: ''
+	    },
+	    dialogue: {
+	      endpoint: 'socrates-dialogue:50051'
+	    },
+	  }
+1883f5edcf0c7ace7f70276146762937|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|1|V|typescript
+	const config: Config = {
+	  cors: {
+	    origin: 'http://localhost:3000',
+	    methods: 'POST,OPTIONS',
+	    credentials: true,
+	  },
+	  dataSource: {
+	    account: {
+	      endpoint: ''
+	    },
+	    dialogue: {
+	      endpoint: 'socrates-dialogue:50051'
+	    },
+	  }
+	}
+	
+c3b7672012ab0e3c87a35725932d6c83|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|16|v|typescript
+	config: 
+1f633fab4707d961d8941f3ae174e8f6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|1|V|typescript
+	const config: Config = {
+	  cors: {
+	    origin: 'http://localhost:3000',
+	    methods: 'POST,OPTIONS',
+	    credentials: true,
+	  },
+	  dataSource: {
+	    account: {
+	      endpoint: ''
+	    },
+	    dialogue: {
+	      endpoint: 'socrates-dialogue:50051'
+	    },
+	  }
+	}
+	
+	export default config
+87a70ce46ea04de7c28dd1e4da31904c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/prd_config.ts|3|14|v|typescript
+	http://localhost:3000
+de03a136c5ea0693aa12933181a52c51|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|13|14|v|typescript
+	socrates-dialogue.socrates-inside:50051
+ebea9b32fc716d4ed9767c65cc3838c5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/stg_config.ts|12|18|v|typescript
+	socrates-dialogue:5005
+41ce4d07b8f7953a73d1ed2b95d917e4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|14|13|v|typescript
+	socrates-account.socrates-inside:50051
+22f81a1ec9c2db9fd258a34a3c93e822|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|6|1|V|typescript
+	import { Config } from './config';
+e83a9ba36fd0143e66bc080bf72f11c8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|21|3|V|typescript
+	  const config = 
+421aa90e079fa326b6494f812ad13e79|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/stg_config.ts|3|21|v|typescript
+	localhost
+19db3f49b0651b77ebe00a5b9717146b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/stg_config.ts|3|56|v|typescript
+	:3000
+38cce664636b6f453d5d082936b30ddd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/Dockerfile.local|13|1|V|
+	ENV NODE_APP_INSTANCE=docker
+8b10aa07f19542946925453e7632a66d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/Dockerfile.local|14|9|v|
+	_APP_INSTANCE
+71e91762069749eba792ca2faecbee19|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile.local|11|10|v|
+	APP_INSTANCE
+05b6053c41a2130afd6fc3b158bda4e6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile.local|11|14|v|
+	docker
+ad65d91ba5fc5f4494e00822c04e583b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/index.d.ts|18|3|v|typescript
+	endpoint
+6edaa7b6d26d485f6ca29973abf24fbe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|11|3|V|typescript
+	  config: Config
+befbab863b850330883a8015190e950d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|13|v|typescript
+	: Config
+7b7ea54fbf21f9f22373bea48abe8e61|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/config.d.ts|1|1|V|typescript
+	declare interface Config {
+	  cors: CorsConfig;
+	  dataSource: DataSourcesConfig;
+	}
+	
+	interface CorsConfig {
+	  origin: string[];
+	  methods: string;
+	  credentials: boolean;
+	}
+	
+	interface DataSourcesConfig {
+	  account: DataSourceConfig;
+	  dialogue: DataSourceConfig;
+	}
+	
+	interface DataSourceConfig {
+	  host: string;
+	}
+27aec0f4281e186cd83e5d949edd22d5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/index.ts|1|1|v|typescript
+	declare
+8debb9154d21e0c5084487f7e1f96657|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|34|v|typescript
+	/config
+dc0b72285e4803c98a5f10d22440d686|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|1|V|typescript
+	import { Config } from '.'
+f1cb02bf82ef2026bb7cb67cd60d46c8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|1|v|typescript
+	const config: Config
+659b37829b659b65ff74083fb5fee422|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|17|1|V|typescript
+	export default config
+79ecd69c75dbba33136a242675c7333b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/prd.ts|1|1|v|typescript
+	const config: Config =
+fcd24c5c97d9a753f4654da62d0ec9d9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|1|1|V|typescript
+	import config from 'config'
+ee089a61c8526b65a5146fe8be0f4edb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|28|16|v|typescript
+	ApiUrl.dialogue
+65584ee02afc5668f71c971810ba1be6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|28|54|v|typescript
+	 // TODO: 環境ごとに変えられるようにする
+37b3683ed4a895b2b8833827704f8fdc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|28|1|V|typescript
+	      address: config.get('datasource.dialogue.host')
+8e2a68543100b117ca10fb205841696f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|31|7|V|typescript
+	      address: ApiUrl.account // TODO: 環境ごとに変えられるようにする
+75b605edcac98bc311e21d6908c81023|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|10|1|V|typescript
+	//import { config } from './config' // TODO: 環境ごとに変えられるようにする e.g. dev.ts local.ts stg.ts
+19a5c1e8989085c112543eb4d90cae35|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|33|9|v|typescript
+	{
+	    origin: 'http://localhost:3000', // TODO: 環境によって変える
+	    methods: 'POST,OPTIONS',
+	    credentials: true,
+	  }
+c07e838d18d142720d5cff23f0dea0fe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile|24|1|V|dockerfile
+	ENV NODE_ENV=local
+68488f295ec02602ee556d5e3cfad3af|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/package.json|12|13|v|json
+	SET NODE_ENV=local && 
+606cd13702230997502a9c38e0d022c6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile.local|11|1|v|
+	pSET
+e3e2dc36bfc4ad4d902ecaeec34fbe63|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile.local|11|19|v|
+	 && 
+a04d4e8c515a628908fe109db878b389|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/account_api.ts|41|5|V|typescript
+	    console.log(address)
+cf83cf8a23e1354c4a7d0b5e744ab36c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|28|1|V|json
+	      "environment": [
+	        { "name": "NODE_ENV", "value": "production"}
+	      ],
+9a3f6bbc89432af5a369ec0b596348e4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|11|1|V|typescript
+	// 暫定の切り替え
+	// const ApiUrl = {
+	//   dialogue: "socrates-dialogue.socrates-inside:50051",
+	//   account: "socrates-account.socrates-inside:50051"
+	// }
+	// const ApiUrl = {
+	//   dialogue: "socrates-dialogue:50051",
+	//   account: "socrates-account:50051"
+	// }
+	
+81219a34fa8b077e82580d87c911895e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile|9|5|v|dockerfile
+	GITHUB
+15b22af177cd6448f8097dcb8af99399|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile|11|45|v|dockerfile
+	GITHUB_AUTH_TOKEN
+0cc25b606fe928a0c9a58f7f209c4495|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|11|7|v|yaml
+	NODE
+177c933d601ce7b454628956bd6a4221|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|11|1|V|yaml
+	      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+a585a6bbec315b29a31d7c99b38d4fdd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|35|1|V|yaml
+	          GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+2a0b530a63e6e7e01ce99e4ee28d9b05|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|39|69|v|yaml
+	 --build-arg GITHUB_AUTH_TOKEN=$NODE_AUTH_TOKE
+4b718b493bd2717fa40916ca45bfbcd9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|11|23|v|yaml
+	 ${{ secrets.GITHUB_TOKEN }}
+39bf69c3662d3ea3b129be2dda069e21|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|23|31|V|yaml
+	      - name: Make .npmrc file
+	        run: |
+	
+c6eb8639300a472efbe3f5f06e97170d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|30|1|V|yaml
+	          image_name: socrates-bff-web
+fec2c9b205b6ae73b40fc10bb1c3f4a0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|31|11|v|yaml
+	image_name
+29df4a7e21b218bfa5755171ed2d1a01|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|31|28|v|yaml
+	socrates-bff-web
+ea27ad978cf1282d706e13493341a903|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|24|1|V|yaml
+	        env:
+	          GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+fdedf516b8f48ea91e812da37912741f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|29|11|V|yaml
+	          build_extra_args
+55b63f4b0fdc35ce97c939e5aceec308|file:///Users/koji.yoshimura/work/socrates-env/local/docker-compose.yml|1|1|V|yaml
+	version: '3.8'
+	services:
+	  socrates-bff:
+	    container_name: socrates-bff
+	    build:
+	      context: ../repos/socrates-bff
+	      dockerfile: Dockerfile.local
+	    links:
+	      - socrates-redis-cluster:redis
+	    volumes:
+	      - ../repos/socrates-bff:/usr/src/socrates-bff
+	      # - /usr/src/socrates-bff/node_modules
+	    ports:
+	      - "4100:4000"
+	    deploy:
+	      resources:
+	        limits:
+	          memory: 512m
+518b30444c73209c6a80d43a97bca77a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|15|1|V|yaml
+	    deploy:
+	      resources:
+	        limits:
+	          memory: 512m
+bd54d8ca11c58503a1d65a84480ea5ae|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|13|1|V|yaml
+	    ports:
+	      - "4100:4000"
+c1e5b11b2b916687eb9018763bd7dde0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|7|29|v|yaml
+	.local
+346c710c32cca636feb0c6e1fc493ccb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|6|17|v|yaml
+	./repos/socrates-bff
+ec6b26e7917edbaf9acd8a500f2f12c5|file:///Users/koji.yoshimura/work/socrates-env/local/docker-compose.yml|57|1|V|yaml
+	    environment:
+e0b200e498597973ff43d9abf28baeeb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|9|1|V|yaml
+	    links:
+	      - socrates-redis-cluster:redis
+9deb1145577bcd531d3e51b5bbc7c609|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|9|1|V|yaml
+	    volumes:
+	      - ../repos/socrates-bff:/usr/src/socrates-bff
+	      # - /usr/src/socrates-bff/node_modules
+69523bdae422d83696c7d7a9e239a1f8|file:///Users/koji.yoshimura/work/socrates-env/local/docker-compose.yml|58|1|V|yaml
+	      MYSQL_ROOT_PASSWORD: password
+4a3c62ba1b09739c8423c0421bf0678f|file:///Users/koji.yoshimura/work/socrates-env/local/docker-compose-published.yml|8|1|V|yaml
+	      args:
+	        - GITHUB_AUTH_TOKEN=${GITHUB_AUTH_TOKEN}
+924d933f4b0c1c53dd3189c12c89b77a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|5|7|V|yaml
+	    environment:
+	      args:
+	        - GITHUB_AUTH_TOKEN=${GITHUB_AUTH_TOKEN}
+fcc0a0caea3b402a90c4bb0287bd39fe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|32|1|V|yaml
+	        env:
+dae13b9c630a5226956fc9500e6e9840|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|31|3|V|yaml
+	          build_extra_args: "--build-arg=GITHUB_AUTH_TOKEN=$NODE_AUTH_TOKEN"
+e7411495ad25acb6e5b7b24a8cc21a5a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|30|11|V|yaml
+	          compose_file: docker-compose.yml
+13b3f3e76ed018a105bdeac77aa8967e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|30|11|v|yaml
+	compose
+ac3a11e31c146bbff8995a7d4a1b8c56|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|30|1|V|yaml
+	          _file: docker-compose.yml
+127285885496c8126ed204deaa35730d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile|10|1|V|dockerfile
+	RUN echo $GITHUB_AUTH_TOKEN
+c361c2dd67bc59c8bd5ca705dd2dfe89|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/yarn.lock|493|13|v|conf
+	https://registry.yarnpkg.com/@jest/types/-/types-26.6.2.tgz#bef5a532030e1d88a2f5a6d933f84e97226ed48e
+83973acb3d3f55a3dea76ea23d1882a6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/yarn.lock|504|13|v|conf
+	https://npm.pkg.github.com/
+1b7cb50f7070a4d29436590f441121e3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/yarn.lock|504|13|v|conf
+	https://npm.pkg.github.com/download/
+1d9945f44ee2a0e0df2c168c46c7f9ff|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/yarn.lock|504|13|v|conf
+	https://npm.pkg.github.com/download/@lv-levtech/bsd-ts-protoc-gen/0.0.13/a0ab888644f612635078471743c78b8d26e85149400d4253713b216032af8f11#21773ebf69f8bc2e421e4c9025a57ca1e39b212d
+28bd2fc0093c6bb216273c1bc89f032b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|25|42|v|yaml
+	GITHUB_TOKEN
+a9159bf2edcd7f4a62fb2190f6243671|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|25|1|V|yaml
+	          GITHUB_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_FOR_GITHUBPKG }}
+f91252b6203b963d239f8c96c0b2e295|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|25|1|V|yaml
+	        env:
+	          GITHUB_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_FOR_GITHUBPKG }}
+a4441399aab209512bf9686790ccab8b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|42|1|V|yaml
+	          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+	          echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+bb578b6886876c0e2a96c71267d1db02|untitled:1|1|16|v|
+	localhost:4100
+a4bc5a25478e590f33bc9018ef1ab216|untitled:1|1|1|v|
+	curl -i http://http://socrates-bff-web.socrates-inside/graphql/.well-known/apollo/server-health
+955e3130eaac6bae75f0afa41b2ca8a0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|4|1|V|typescript
+	      'https://studio.apollographql.com',
+00b8600acf4841552177def1c285c170|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|5|8|v|typescript
+	https://studio.apollographql.com
+a4cab423de5e82c3adf1f462f8cab5f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.nvmrc|1|1|V|
+	14.15.0
+9ee32b76d1e74255cebf96432513dc36|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.nvmrc|1|1|V|
+	14.15.4
+c7195b63bbeecae739ae0ace41177e6d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|29|11|V|yaml
+	          build_extra_args: "--build-arg GITHUB_AUTH_TOKEN"
+f40f4ed790fffefcb18c7edeef01e0e3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|11|7|V|yaml
+	      GITHUB_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_FOR_GITHUBPKG }}
+1866bbfc6b9cbaae42d42d9d5e64682e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|41|1|V|yaml
+	          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG . --build-arg GITHUB_AUTH_TOKEN
+952ebdaa439e288103d46913bd106548|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-prd.yml|39|7|V|yaml
+	          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+749bef272ef3b9dfb17ac93a7e41a3aa|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/staging.ts|2|1|V|typescript
+	  cors: false,
+7dabdc70e6cbb6a20f61fe68b5f48ba8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|41|68|v|yaml
+	. --build-arg GITHUB_AUTH_TOKEN
+a0a4287c210227d7ca3f9f7adfd836c9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|41|69|v|yaml
+	 --build-arg GITHUB_AUTH_TOKEN
+b8411dd6ec7ec01a07b51ea2d8f92701|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|28|23|v|yaml
+	bsd-notification
+0ea0c24f1d88e9f9666d1895b510af52|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|28|23|v|yaml
+	socrates-dialogue-app
+6d7b00d2479f9e1973122aa0aafa7ed3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|34|27|v|yaml
+	bsd-notification-app
+abe32b04d5249c19a869f9e5e623aa31|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-stg.yml|57|1|V|yaml
+	          service: socrates-dialogue-stg-App-fargate
+1289585da4575926c9eb515b0c09c0df|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|56|11|V|yaml
+	          service: bsd-notification-prd-App-fargate
+8845f23cf78c7ab9f21ea2d7fdb75ab0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-stg.yml|47|27|v|yaml
+	amazon-ecs-render-task-definition
+400c995cdaa0f9819fe1da18e6551641|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-stg.json|40|17|v|json
+	173316779221.dkr.ecr.ap-northeast-1.amazonaws.com/bsd-iam-app:latest
+653141ffbe4fd4ea8b9861f1a84e16bc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|3|24|v|json
+	arn:aws:iam::720166064830:role/bsd-notification-prd-App-apptaskExecutionRole73129-ID2FL7FTCXS2
+478054c6900eae7d414d3d34beafa203|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|12|29|v|json
+	bsd-notification-prd-App-apptaskappLogGroupDD4CF082-Lk2IARvRkiNr
+07e932fcd783c8deab1d20a49ed80c39|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|3|24|v|json
+	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+dc8fe1d6497ebd23f5975d8d2a1c5e81|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|12|29|v|json
+	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+84a8393f6d411f1d686c13984d6a4382|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|42|17|v|json
+	715443724367.dkr.ecr.ap-northeast-1.amazonaws.com/bsd-echo-server:latest
+441752510361a8ff0b65a43272fe4867|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|64|19|v|json
+	arn:aws:iam::720166064830:role/bsd-notification-prd-App-apptaskTaskRoleB0806AA3-S3VM35K2QAXN
+4b1121a20be63cc7e47ac2dc4040ab96|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|65|14|v|json
+	bsd-notification-prd-App-app
+cdb75ccf7c7a4a9f9560f3468d584bc4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|12|29|v|json
+	bsd-echo-server-ins-appfargateTaskDefappLogGroup7D4F6B28-XTT6PQ097DFQ
+04364420e25c512fd958a70738aa8f72|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|12|29|v|json
+	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+3b7ac9a1ad0c8b8743c7f57344b419a4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|3|24|v|json
+	arn:aws:iam::715443724367:role/bsd-echo-server-ins-appfargateTaskDefExecutionRole-19QWGAIY20RL9
+3eb99e62c27f12484303cd5d6c3e1335|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|62|19|v|json
+	arn:aws:iam::715443724367:role/bsd-echo-server-ins-appfargateTaskDefTaskRoleAD852-JKOC65C7589N
+2307a4aef7dd4cf4907bbfa0ddadc6ef|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|63|14|v|json
+	app-bsd-echo-server-ins
+2459448536f1ea0397feb0b65e1bf42f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/fargate/task-definition-ins.json|12|30|v|json
+	sd-echo-server-ins-appfargateTaskDefappLogGroup7D4F6B28-XTT6PQ097DFQ
+5decc00a3594ef5184ba2a0e78afface|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/fargate/task-definition-ins.json|12|29|v|json
+	bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+960e0a262a729216df4c514de73c9523|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-stg.yml|58|20|v|yaml
+	socrates-Staging-cluster
+3efcb48dc0c39270981dc0690ec68bd6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|56|20|v|yaml
+	app-cluster-ins
+0c985ebf7e527bb1c7e3930824af352e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|6|9|v|yaml
+	inspection
+1bee0d8aaede29ac319901e96850adee|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|56|29|v|yaml
+	Staging
+81c60edcad533534cbcef603d895d3f3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|28|23|v|yaml
+	bsd-iam
+8f3652b05d85c5f25e5f1643d2f1f8f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|28|23|v|yaml
+	socrates-dialogue-app-inspection
+ed632f040d18bd05d6ad8a2848642f2c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|33|11|v|yaml
+	ECR_REPOSITORY: b
+4393e3aa83c3c22643ec1b273120623a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-stg.yml|57|20|v|yaml
+	socrates-dialogue-stg-App-fargate
+576676957e360ac71b809e95a55a0c43|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|55|20|v|yaml
+	fargate-bsd-iam-ins
+5206d389e0e3115ceef035614d837140|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-ins.yml|25|34|v|yaml
+	STG_
+e669a58317a04ec03063ddcc76ea3ebe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-ins.yml|28|23|v|yaml
+	socrates-bff-web-ins
+5ef181feeb3bae47a9e7424c12c0d350|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|29|48|v|yaml
+	pection
+b56b447242152a60dcc39546d073a0f6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-stg.yml|29|23|v|yaml
+	socrates-account-app
+95d173dd8cead3ccef45a1318cf6b875|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-stg.yml|57|20|v|yaml
+	socrates-account-stg-App-fargate
+1ba69829f050bfcd5f7d51ba4fb6195a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-prd.yml|56|20|v|yaml
+	bsd-notification-prd-App-fargate
+61f20730025a1d5d5cf73166dc9725a4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|26|34|v|yaml
+	STG_AWS_ACCESS_KEY_ID
+63b333e759dae200948a5621184de876|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|27|34|v|yaml
+	AWS_SECRET_ACCESS_KEY
+9356476709ce3f31fddc199226104f8b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|29|11|v|yaml
+	image_name: s
+f60f1473aa82431fe06b67c458d55b2b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|29|23|v|yaml
+	socrates-account-app-ins
+ac7d724183a76e89d198560878410ca8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-stg.yml|57|1|V|yaml
+	          service: socrates-account-stg-App-fargate
+	          cluster: socrates-Staging-cluster
+0d302e0273af00aec742faf9eee86d52|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|57|1|V|yaml
+	          service: fargate-bsd-iam-ins
+	          cluster: app-cluster-ins
+6dc2b0dc3f3f4c4438b4c98e3b06159a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|58|29|v|yaml
+	deIStaging
+2e75928ee67b546b44d45b1acbea215a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-stg.yml|18|1|V|yaml
+	          aws-access-key-id: ${{ secrets.STG_AWS_ACCESS_KEY_ID }}
+	          aws-secret-access-key: ${{ secrets.STG_AWS_SECRET_ACCESS_KEY }}
+1c70907f68360924d20b383153d05067|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|18|1|V|yaml
+	          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+	          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+b627d200fc3df31eb068ecdbfa3596f2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/fargate/task-definition-ins.json|3|25|v|json
+	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+899fbd33911b6f2b0de88a1fe646e6c3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|63|19|v|json
+	arn:aws:iam::173316779221:role/socrates-account-stg-App-apptaskTaskRoleB0806AA3-1SAPW15DMPL98
+2eac18f90b4c5c37da3e22c2c29a291d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|3|24|v|json
+	arn:aws:iam::173316779221:role/socrates-account-stg-App-apptaskExecutionRole73129-WPCRU346DAIG
+0cf129b39610780f214e9c4e34577a62|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|62|19|v|json
+	arn:aws:iam::173316779221:role/socrates-front-stg-App-apptaskTaskRoleB0806AA3-1NY4ME41KTOAZ
+edd38e5ed8d698041d75bf11e3201369|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|3|24|v|json
+	arn:aws:iam::173316779221:role/socrates-account-stg-App-apptaskExecutionRole73129-165VOWQJU4UXR
+5a52459ba69076e4fac04f0ca023adc3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|12|81|v|json
+	kP2EPPKW5vR2
+011eb1f67c40b68da97c42dae718300b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|12|29|v|json
+	socrates-account-stg-App-apptaskappLogGroupDD4CF082-MHTMIelNlyBj
+b5d6a91fe2e68730d5e598d70b26d55d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|1|V|typescript
+	export default {
+	  cors: {
+	    origin: [
+	      'https://studio.apollographql.com',
+	      'http://localhost:3000/',
+	    ],
+	    methods: 'POST,OPTIONS',
+	    credentials: true,
+	  },
+	  dataSource: {
+	    account: {
+	      host: 'socrates-account:50051'
+	    },
+	    dialogue: {
+	      host: 'socrates-dialogue:50051'
+	    },
+	  }
+	}
+	
+958d711dca01abad491e4143054d5025|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|4|1|V|typescript
+	      'https://studio.apollographql.com',
+	      'http://localhost:3000/',
+f5152482e8cabf249828c1d62be8e229|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|2|1|V|typescript
+	  cors: {
+	    origin: [
+	    ],
+	    methods: 'POST,OPTIONS',
+	    credentials: true,
+	  },
+	  dataSource: {
+	    account: {
+	      host: 'socrates-account:50051'
+	    },
+	    dialogue: {
+	      host: 'socrates-dialogue:50051'
+	    },
+	  }
+	}
+7fd9b5b957fb714b4996ba45258055a9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|2|1|V|typescript
+	  cors: {
+	    origin: [
+	    ],
+	    methods: 'POST,OPTIONS',
+	    credentials: true,
+	  },
+	  dataSource: {
+	    account: {
+	      host: 'socrates-account:50051'
+	    },
+	    dialogue: {
+	      host: 'socrates-dialogue:50051'
+	    },
+	  }
+f471c42df9f0e2e11332aaa349584a25|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|20|8|v|typescriptreact
+	BffUrl
+7219cc28bedfedc4ab511989e70c7e60|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|3|5|V|typescript
+	    bff: {
+ea5a1cbe764918679997181a3ea281d3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|4|5|V|typescript
+	    }
+28183cf9a9c1a4befd23ccc5dbfff661|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|18|17|v|typescriptreact
+	http://localhost:4100/graphql
+cc8efcb655b225c3434c1efbad484996|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|1|1|V|typescript
+	export default {
+	  apollo_client: {
+	    host: 'http://localhost:4100/graphql',
+	  },
+	};
+eb885dce2ba62d39766c64135f6df069|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/production.ts|3|12|v|typescript
+	http://localhost:4100/graphq
+738ebbc6f959d15c0c674a44dd0648d2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|16|20|v|typescriptreact
+	http://socrates-bff-web.socrates-inside/graphql
+ba9d38b6e520202ca49b460abd6abbac|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|15|11|V|typescriptreact
+	// Staging
+	// const BffUrl = 'http://socrates-bff-web.socrates-inside/graphql';
+	// Local
+165d41d90add2ebe248891e625a82255|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|15|1|V|typescriptreact
+	const BffUrl = "http://localhost:4100/graphql"
+d3b2b2a45cf7a6dc4d2f1ee333eb6a06|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|34|34|v|typescriptreact
+	/*{ Component, pageProps }*/
+4bb8df57b23fe40256e79653ea172267|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/tsconfig.json|22|1|V|json
+	        "config/**/*"
+1e9e1ca2b5ef22be358e0ea8d392cdd6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|1|1|v|typescript
+	export default 
+1867abff59547d665aa22bdc2ab31bbd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|1|7|v|javascript
+	serverHost
+62dfbe9c32ad10ac2a89f3bcbf9eff21|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|13|61|v|javascript
+	 as string
+0eecce7705e67f996bc6b5b050169c33|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|13|51|v|javascript
+	 as string) 
+b67113a4894f3d566dc96898473177d8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|1|V|typescriptreact
+	// Staging
+	// const BffUrl = 'http://socrates-bff-web.socrates-inside/graphql';
+	// Local
+	const BffUrl = "http://localhost:4100/graphql"
+f5ddaf0ca7929578b408c909429f68f2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|2|3|v|javascript
+	local
+759b74ce43947f5f4c91aeddc3e5bad3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|2|3|v|javascript
+	development
+a38eed1587e694c84744428a28a63796|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|12|9|V|javascript
+	  env: {
+	    SERVER_HOST: serverHosts[process.env.NODE_ENV ?? 'development'],
+	  },
+236664bc45c633f85de1ec2f7d052a5d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|1|1|V|javascript
+	const serverHosts = {
+	  development: 'http://localhost:4100/graphql',
+	  staging: 'http://socrates-bff-web.socrates-inside/graphql',
+	  production: '',
+	};
+	
+652635f04a57284058bc8e7f7f9e92e8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|1|V|typescriptreact
+	console.log(process.env)
+8942d4c48f0740aebca87552832e3e46|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|1|1|V|javascript
+	const serverHosts = {
+	  development: 'http://localhost:4100/graphql',
+	  staging: 'http://socrates-bff-web.socrates-inside/graphql',
+	  production: '',
+	};
+158a47b842c856144c132822a2eeed4f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|1|V|typescriptreact
+	const serverHost = {}
+5d51df6316eb0fe7d879500d03b01988|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|20|v|typescriptreact
+	SERVER_HOST
+f70e02148dca8c656298e29dc0bb66e5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|19|v|typescriptreact
+	(process.env.NODE_ENV as string) ?? 
+987e6a85f41c34ab5a2fe788f063c176|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|19|v|typescriptreact
+	'production'
+feac050db2c9d701f3c22dcc7869cc6b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|15|3|V|typescriptreact
+	  test: '',
+f3d219bc8edd87452c415c6340c6b418|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|54|v|typescriptreact
+	['']
+60288726056270312b614d263868a4fb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|16|1|V|typescriptreact
+	  inspection: '',
+e1cce3261af9ee01cfe6dcc3360b1c92|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-ins.yml|28|44|v|yaml
+	-app
+229eb4887f0aac5626cab6edaa5a91af|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-ins.yml|28|23|v|yaml
+	socrates-front-web
+8f47ada863bf76eb8b322f39c696230d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|58|20|v|yaml
+	socrates-Inspection-cluster
+c026fc496231c925f612ccd3367eb2e7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/account_api.ts|58|5|V|typescript
+	    console.log(this.client)
+0b0abb4783797fd960ece19bfe42ada8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-stg.yml|55|20|v|yaml
+	socrates-front-web-stg-App-fargate
+6bad6dbe616c2a04ea6306d17e3c3f30|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-stg.yml|55|11|v|yaml
+	service: s
+03de2a5b040c1ff435f6abdb588b057e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-stg.yml|55|20|v|yaml
+	socrates-front-stg-App-fargate
+9290abaa098dfc03240776a3792b66f0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-prd.yml|54|20|v|yaml
+	socrates-front-web-prd-App-fargate
+04e0baf70446974c493c5d4125a19df0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-ins.yml|55|20|v|yaml
+	socrates-front-ins-App-fargate
+1bd69c7df3112fb9a584fbd9edfc6c90|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|20|23|v|json
+	4000
+e93028bdc1aacdfb3687181f2031765d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|20|23|v|json
+	3000
+bdbf65c0985144843465cf6c4785094b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-ins.json|20|23|v|json
+	50051
+ba78deb32c5a539798a9152b9e59c45d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|1|V|typescriptreact
+	console.log(serviceHost);
+c235e62be27c3299c68064ab8db2f5ff|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|13|v|typescriptreact
+	serviceHost
+90869c4c1f85e80db6606d094ceded78|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|1|V|typescriptreact
+	console.log(process.env.NODE_ENV);
+2a00138f040e9bde1b2eaf3c1bb678f5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|24|1|V|typescriptreact
+	console.log(serverHost[process.env.NODE_ENV]);
+566249dd9bae277189b368d1c5ca71f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|17|v|typescriptreact
+	iceHost
+35ddec716a644f3b6a3c28b96c17e4ac|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|25|v|typescriptreact
+	 // eslint-disable-line
+cecb420242dd1d6516377030ee7b726d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|1|V|typescriptreact
+	console.log(process.env.NODE_ENV); // eslint-disable-line
+d257e97ef1ee103bb04389ef38ed9dff|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|24|v|typescriptreact
+	.NODE_ENV
+ba3869409291fd13a1151ae44351d167|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|6|1|V|javascript
+	  env: {
+	    NODE_ENV: process.env.NODE_ENV,
+	  },
+4f13e1a2738a9c270c72a7e341875409|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|7|5|v|javascript
+	NODE_ENV
+e900e40bc91d3f9f7f0a99fed68a2e96|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|24|25|v|typescriptreact
+	environment
+91a5c0f0ae9c7a0f68627de146286c27|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|48|V|typescriptreact
+	console.log(serverHost); // eslint-disable-line
+	console.log(process.env); // eslint-disable-line
+	console.log(process.env.environment); // eslint-disable-line
+	console.log(serverHost[process.env.environment]); // eslint-disable-line
+	console.log(serverHost[process.env.environment] ?? serverHost.production); // eslint-disable-line
+292d5a201bb9dff77ab63bd83e9e5876|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|1|V|typescriptreact
+	console.log(serverHost); // eslint-disable-line
+fe62d62f66675ab9332e8fb921025bfd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|1|V|typescriptreact
+	console.log(process.env.environment); // eslint-disable-line
+	console.log(serverHost[process.env.environment]); // eslint-disable-line
+	console.log(serverHost[process.env.environment] ?? serverHost.production); // eslint-disable-line
+c992a1e93e8c66dd0a344637f7c950c2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|6|1|V|javascript
+	  env: {
+	    environment: process.env.NODE_ENV,
+	  },
+e17e01d69a12661f73cf4658621244da|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|1|V|typescriptreact
+	console.log(process.env); // eslint-disable-line
+	
+42dd0d06e23ea02993bab6e9e2e18810|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|29|1|V|json
+	        { "name": "NODE_ENV", "value": "staging"}
+b9a51efcdc3703c97e74549e4bf2bd0b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|30|20|v|json
+	NODE_
+d058b38bcccab7aeeba8fc249207dc06|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|29|9|V|json
+	        { "name": "NODE_ENV", "value": "staging"},
+a46cd8ae80e7f6b1e382b0f0cf20c99d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-prd.json|29|1|V|json
+	        { "name": "NODE_ENV", "value": "production"}
+500b903529d934afc9885971b180a1c4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|18|1|V|typescriptreact
+	  staging: 'http://socrates-bff-web.socrates-inside/graphql',
+28eecce841aedb4118f1ae15aad5b686|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|42|v|typescriptreact
+	 ?? ''
+889a65415d92b72cffa7df3f8ecf13f9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|20|31|v|typescriptreact
+	ENVIRONMENT
+bb2adeed97ab251a569e431cd5c6a316|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|16|1|V|typescriptreact
+	  production: 'http://socrates-bff-web.socrates-inside/graphql',
+fd89784e59c72499525556f80289b2c7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|17|3|v|typescriptreact
+	production
+448b09a971b0690d6f8961e600bfdbab|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|16|16|v|typescriptreact
+	'http://localhost:4100/graphql'
+e77a1fcc189062a548957a52550270d0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|19|v|typescriptreact
+	process?.env?.APP_ENV ?? ''
+6d93d3216dc4a7f5df47d4876fbec4d3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|1|V|typescriptreact
+	
+	
+	
+	
+	
+	
+	
+4061321827e4994390c3440039f41c7f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|11|v|typescriptreact
+	StringKeyObject
+3a6ddcb712cb05eb9e389ce908c5f39a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|11|v|typescriptreact
+	ServerHostInterface
+cb23a2dfe23477a94dc3bfb9a86f44af|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|23|v|typescriptreact
+	nterface
+4ff30ec79d3e66a0b6185df90cee3e8f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|11|v|typescriptreact
+	IServerHost
+910a094f303039fc39778602cc28b09c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/domain/account/Dtos/Result.ts|1|1|V|typescript
+	export interface ResultDTO<T> {
+	  success: boolean
+	  message?: string
+	  data?: T
+	}
+	
+	export interface SignInResultDTO {
+	  user_id: string
+	}
+	
+	const data: ResultDTO<SignInResultDTO> = {
+	  success: true,
+	  data: {
+	    user_id: "aaaaaaaaaaaaaaaaaaa"
+	  }
+	}
+a4bf9bb84c595050619bc76fc5c918e2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/package.json|24|6|v|json
+	synth:stg
+7180c2ae85fd3c59715be272f758d76d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|51|1|V|typescript
+	      .withLoadBalancer(fargate.loadBalancer)
+4a1922288f0d0c72648ac146c1df006d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|52|7|V|typescript
+	      .with
+0cf31b2c283ce3431794586df7b0996d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|42|4|V|typescript
+	    
+6824e69b20d22acc4fd4e97e325ed410|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|44|7|V|typescript
+	      .withDesiredCount
+06610bd92df1389296b0f81920d69b44|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|43|1|V|typescript
+	      .withContext(context)
+4c7d7c0f906c09904a9e7656904e1a97|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|44|12|v|typescript
+	Context(context)
+879e950549a9045a0532d74ef0375213|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|24|15|v|yaml
+	whoan/docker-build-with-cache-action@v5
+0bbf0f4fe102f46a74528cd6d3b7408e|file:///Users/koji.yoshimura/work/sysm-cdk/library/common/lb/HttpAlbBuilder.ts|3|51|v|typescript
+	aws-elasticloadbalancingv2
+a5e901d11d3528375296b5fd43242e68|file:///Users/koji.yoshimura/.zshrc|109|1|V|zsh
+	alias vf='vim +VimFiler'
+0b7066aea29cec561bd51cb411410adf|file:///Users/koji.yoshimura/.zshrc|110|12|v|zsh
+	vim +VimFiler
+e66bf9a0fecc94cbf363e8167e1f052e|file:///Users/koji.yoshimura/.zshrc|110|1|V|zsh
+	alias vim=nvim
+0dd880ab2b83d61eb1c5ad351ea8714a|file:///Users/koji.yoshimura/work/ddd-forum/src/modules/forum/subscriptions/afterCommentPosted.ts|7|14|v|typescript
+	AfterCommentPosted
+a5ac23e0f70c4fc62b2c9adfd019375f|file:///Users/koji.yoshimura/.zshrc|75|1|V|zsh
+	# export PATH="$HOME/.rbenv/bin:$PATH"
+	# export PATH="$HOME/.rbenv/shims:$PATH"
+44c6ec3c6de1c298ea7986ec02a4db7f|file:///Users/koji.yoshimura/.zshrc|76|1|V|zsh
+	# export PATH="$HOME/.nodebrew/current/bin:$PATH"

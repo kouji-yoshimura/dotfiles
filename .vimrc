@@ -142,6 +142,7 @@ NeoBundle 'fatih/vim-go'
 NeoBundle 'flyinshadow/php_localvarcheck.vim'
 NeoBundle 'grep.vim'
 NeoBundle 'hail2u/vim-css3-syntax'
+" NeoBundle 'heavenshell/vim-tslint'
 NeoBundle 'hokaccha/vim-html5validator'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'jelera/vim-javascript-syntax'
@@ -156,7 +157,8 @@ NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'osyo-manga/vim-over'
 NeoBundle 'othree/html5.vim'
-NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'peitalin/vim-jsx-typescript'
+" NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'pocke/neosnippet-incomment'
 NeoBundle 'pocke/neosnippet-snippets'
 NeoBundle 'scrooloose/nerdtree'
@@ -454,7 +456,7 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 
 " For conceal markers.
 if has('conceal')
-  set conceallevel=2 concealcursor=niv
+  set conceallevel=0 concealcursor=niv
 endif
 
 "===============================

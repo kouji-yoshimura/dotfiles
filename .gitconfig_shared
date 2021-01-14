@@ -1,0 +1,51 @@
+[push]
+  default = matching
+[color]
+  ui = auto
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+[diff]
+  patience = true
+[help]
+  autocorrect = 0
+[alias]
+  logg = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --abbrev-commit --date=relative --graph --branches
+  loga = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --abbrev-commit --date=relative --graph --all
+  s = status
+  b = branch -a
+  co = checkout
+  st = status --branch --short
+  si = status --ignored --short
+  remotes = remote -v
+  dh = diff --histogram
+  dw = diff --word-diff
+  dc = diff --cached
+  wc = whatchanged
+  chp = cherry-pick
+  chpn = cherry-pick -n
+  pullp = pull --prune
+  dfif = diff
+[filter "media"]
+  required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
+[user]
+	name = kouji-yoshimura
+	email = gymmaster0317@gmail.com
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[init]
+	templatedir = ~/dotfiles/.git_template
+[commit]
+    template = ~/dotfiles/.git_template/emoji_prefixes

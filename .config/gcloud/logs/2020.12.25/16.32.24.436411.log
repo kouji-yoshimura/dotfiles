@@ -1,0 +1,35 @@
+2020-12-25 16:32:24,440 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2020-12-25 16:32:24,451 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2020-12-25 16:32:24,454 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2020-12-25 16:32:24,502 DEBUG    google_auth_httplib2 Making request: POST https://oauth2.googleapis.com/token
+2020-12-25 16:32:24,703 INFO     root            Display format: "default json"
+2020-12-25 16:32:24,704 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "compute": {
+        "region": "asia-northeast1",
+        "zone": "asia-northeast1-c"
+      },
+      "core": {
+        "account": "koji.yoshimura@leverages.jp",
+        "disable_usage_reporting": "False",
+        "project": "stg-teratail-207209"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AfH6SMAtw2E2mShu_zxqGe_-1luz64vZQ1J0KptBTLbSYZQudYPUc6URbflqiLKycSshrB1uSJ9XK9sgXOcj8MwI91rTZye6v2v1p5uZE5ibccVe1UxN3gjitKAOKHO2x9vQFmmxDmfG98t2R3gbyXZRuNkbnoKtd0ugUQWzKLtHzvd4bhelag",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZhZGMxMDFjYzc0OThjMDljMDEwZGMzZDUxNzZmYTk3Yzk2MjdlY2IiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAwMzg1MTM5Njk3NDE1OTE3Nzg5IiwiaGQiOiJsZXZlcmFnZXMuanAiLCJlbWFpbCI6ImtvamkueW9zaGltdXJhQGxldmVyYWdlcy5qcCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiekFoMXpRcVZuUnBNYkRSeUR5Qy1JZyIsImlhdCI6MTYwODg4MTU0NCwiZXhwIjoxNjA4ODg1MTQ0fQ.PjwlG75uJI-NT6rbkuzATjnikMm-oOCUo2GATcrE_0Hf0cxmB8PJ72Nnllsv2IW7qj1YrA9aLxZvpHgk9I2cXhU4cPLg9R9vKwh5A1BDCECjhwtu1DnTOirJ8fsQEJjQ_EEEyKwq5e6jYY-6BqAucErkFJKvLt719pe_uYseJ_IauiFHXf-llSI27PdeIZ-fq1wf3dMQrInDIXiH055vtaw2E0VWCKwpOLBUIvIWsbESJLjFcpNMy8VZX8cSri-ZZy8Vu7Y-64Aqi0-t1iG0S2ShtZHtXZACeVlR6q4m0SH9EEl7GF7fMnnDUiViaYYm2oTdsTzSKjPPQppOnuXl5A",
+    "token_expiry": "2020-12-25T08:32:23Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/Users/koji.yoshimura/.config/gcloud/config_sentinel"
+  }
+}
+2020-12-25 16:32:24,704 INFO     ___FILE_ONLY___ 
+
+2020-12-25 16:32:24,707 DEBUG    root            Checking for updates...
+2020-12-25 16:32:24,974 DEBUG    root            Updating notification cache...
+2020-12-25 16:32:24,974 DEBUG    root            Activating notification: [default]
+2020-12-25 16:32:24,986 DEBUG    root            Metrics reporting process started...
