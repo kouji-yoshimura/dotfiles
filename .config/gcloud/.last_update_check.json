@@ -1,1 +1,1 @@
-{"last_update_check_time": 1608881544.974381, "last_update_check_revision": 20201211155722, "notifications": [{"id": "default", "condition": {"check_components": true}, "trigger": {"frequency": 86400}, "notification": {}}], "last_nag_times": {"default": 1603336650.298437}}
+{"last_update_check_time": 1618453195.718852, "last_update_check_revision": 20210409140628, "notifications": [{"id": "default", "condition": {"check_components": true}, "trigger": {"frequency": 86400}, "notification": {}}], "last_nag_times": {"default": 1603336650.298437}}

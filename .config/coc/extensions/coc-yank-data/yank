@@ -1,852 +1,1347 @@
-52bf11c7018215010b519b855b0ffc4f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/operations/mutations/postQuestion.tsx|25|49|v|typescriptreact
-	 || !postQuestion.question
-6e2aadee29a4f72729536e6cc28848e1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/operations/mutations/postQuestion.tsx|29|11|v|typescriptreact
-	!postQuestion.question?.id
-74156b2b12bcf194feaecde5d7e2c597|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/operations/mutations/postQuestion.tsx|29|1|V|typescriptreact
-	      if (!postQuestion.question?.id) {
-	        return;
+53770fd374062f5b825b25dcd60fb498|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|41|66|v|typescript
+	Unread
+a997db2ff217adbc5bdac18014d76d65|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|32|1|V|typescript
+	    const userIdOrError = UserId.create(new UniqueEntityID(req.userId))
+ee11cbb19052e40b07aac0ca060c23ee|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|33|11|v|typescript
+	user
+82a8b5b12840aae4b30c757499806182|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|17|18|v|typescript
+	NotificationId
+61fc80b0d66bc202050596f8a8c6e239|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|36|5|V|typescript
+	    if ()
+cb3f8d5531d08558a9ba83229905aa3f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|36|11|v|typescript
+	dtoResult
+1393462ecf8a64eddecaec63e490c240|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|43|11|v|typescript
+	notificationIdOrError
+cf17dd539bff45fb3230b401b5386c1d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|43|25|v|typescript
+	OrError
+76690295a4352fcca9cc1524cad83d1b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|43|11|v|typescript
+	notificationId
+e93ebcdc1ce6c1665f026feb8d404609|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|46|13|v|typescript
+	unreadNotification
+a6354e45465b48aab097e5c53c393233|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/NotificationRepo.ts|20|3|v|typescript
+	findAllUnreadByReceiverUserId
+290c072badd0a9d982bdbc085f36ed66|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|50|23|v|typescript
+	This user
+7131bd0e110fb3a54de0a25e06003b27|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|54|13|v|typescript
+	readNotification
+1196219568830afafccece00d7e18a9e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|50|1|V|typescript
+	        logger.error("Permission denied")
+c52a1454518514aae5d63f785cf50105|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|56|23|v|typescript
+	Permission denied
+bad613359b9e793b77619d5463978610|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|59|1|V|typescript
+	
+	      if (!unreadNotifications.getItems().length) {
+	        logger.info("Already read all notifications.")
+	        return succeed(Result.ok<void>())
 	      }
-e9e92b05087c1f8cff56ca91ed4d6572|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/generated/controller/authentication_pb_controller.ts|9|40|v|typescript
-	AuthenticationService
-f3b188f3b4e0058b25c1e21d1a595428|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/shared/core/Result.ts|9|1|V|typescript
-	      throw new Error(
-	        "InvalidOperation: A result cannot be successful and contain an error"
-	      )
-55252072ca5154b22997a891d06553d4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/shared/core/Result.ts|9|7|V|typescript
-	      this.isSuccess = false
-8121f9d7c298d5b9c053d5b186702720|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/domain/account/useCase/Authentication/AuthenticationUseCase.ts|41|5|V|typescript
-	    try {
-5325ce2d08e272a7b0a9373492ce60b4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/domain/account/useCase/Authentication/AuthenticationUseCase.ts|41|1|V|typescript
-	    try {
+7f98ced98daa63fc8202882bbe449087|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|59|1|V|typescript
 	
+	      const readNotifications = unreadNotifications.readAll(now)
+10b0d99297186cfd2fc22390d41c7cdd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|60|39|v|typescript
+	WatchedList
+66130021457bfc4422585eb1205fd4e6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|54|13|v|typescript
+	readNotificationOrError
+f6708787daad4184ba968dffb59d8595|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswerErrors.ts|1|1|V|typescript
+	import { UseCaseError } from "../../../../../shared/core/UseCaseError"
+	import { Result } from "../../../../../shared/core/Result"
+	
+	export class SendNotificationByAcceptAnswerFailedToSendError extends Result<
+	  UseCaseError
+	> {
+	  constructor(err: Error) {
+	    super(false, {
+	      message: "Failed to send notification error.",
+	      error: err
+	    } as UseCaseError)
+	  }
+	}
+70d35e679fa2ffd0ee0036a88737888b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsErrors.ts|4|14|v|typescript
+	SendNotificationByAcceptAnswerFailedToSendError
+ee5bae8fcc2050141d863616fac13a06|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|9|17|v|typescript
+	Failed to send notification error
+5cea7c5ca9a2b76c45b7e946e202ea8d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|7|15|v|typescript
+	err: Error
+28729d557ca4ac46b82986e2a8c315a0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|10|1|V|typescript
+	      error: err
+e3ebcdb16b4b1f1e32a6f0f976b945e3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|3|1|V|typescript
+	
+	export class ReadNotificationPermissionDeniedError extends Result<
+	  UseCaseError
+	> {
+	  constructor() {
+	    super(false, {
+	      message: "Permission denied."
+	    } as UseCaseError)
+	  }
+	}
+5e2a1e4a6304d296675fcb2412c279fc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|14|30|v|typescript
+	PermissionDeniedError
+7ad984bd52a2e202dff3106c0055dbe6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|18|1|V|typescript
+	import { ReadNotificationDTO } from "./ReadNotificationDTO"
+ab5cb954227d6989f8fb043bc847a67f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|4|14|v|typescript
+	ReadNotificationPermissionDeniedError
+240d82810592d310f883cdb164bf5748|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|20|3|v|typescript
+	ReadNotificationDTO
+71a790c5ff04f26bf0fd34c54e534494|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|14|14|v|typescript
+	ReadNotificationFailedToUpdateEntity
+b78f8b04d0986d980da2e85b408a2cb5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|55|66|v|typescript
+	TODO"
+333bf7a6ceb77b431b351f58676a5710|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|61|64|v|typescript
+	"TODO"
+5100b315c5b55588604902d5c1ee71f7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswerGrpcController.ts|1|1|V|typescript
+	import { Metadata } from "grpc"
+	import { inject, injectable } from "tsyringe"
+	import { Result } from "../../../../../shared/core/Result"
+	import { UnexpectedError } from "../../../../../shared/core/AppError"
+	import {
+	  SendNotificationByAcceptAnswerRequest,
+	  SendNotificationByAcceptAnswerResponse
+	} from "../../../../../../generated/useCase"
+	import * as _enum from "../../../../../../generated/enum/command_notification_pb_enum"
+	import { SendNotificationByAcceptAnswer } from "./SendNotificationByAcceptAnswer"
+	import { SendNotificationByAcceptAnswerDTO } from "./SendNotificationByAcceptAnswerDTO"
+	
+	@injectable()
+	export class SendNotificationByAcceptAnswerGrpcController {
+	  constructor(
+	    @inject(SendNotificationByAcceptAnswer)
+	    private sendNotificationByAcceptAnswer: SendNotificationByAcceptAnswer
+	  ) {}
+	
+	  async execute(
+	    req: SendNotificationByAcceptAnswerRequest,
+	    metadata?: Metadata
+	  ): Promise<SendNotificationByAcceptAnswerResponse> {
+	    const reqDTO = req as SendNotificationByAcceptAnswerDTO
+	    console.log({ reqDTO })
+	    const res = await this.sendNotificationByAcceptAnswer.execute(reqDTO)
+	    console.log({ res })
+	
+	    return res
+	      .map<SendNotificationByAcceptAnswerResponse>((value: Result<void>) => {
+	        return {
+	          result: _enum.SendNotificationByAcceptAnswerResponse.Result.Success,
+	          errorList: []
+	        }
+	      })
+	      .getOrElse((error) => {
+	        const resultType = ((
+	          errorTypeOf: any
+	        ): _enum.SendNotificationByAcceptAnswerResponse.Result => {
+	          switch (errorTypeOf) {
+	            case UnexpectedError:
+	            default:
+	              throw new Error(error.errorValue().message)
+	          }
+	        })(error.constructor)
+	      })
+	  }
+	}
+3a277d02a28659a02e0f78df7152556d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswerGrpcController.ts|25|1|V|typescript
+	    console.log({ reqDTO })
+ca6d2e64a2c9162d169598da9e5e5dd7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswerGrpcController.ts|26|5|V|typescript
+	    console.log({ res })
+ed9db791fc0aaef003cc38e485f3ca2f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|37|12|v|typescript
+	_enum.ReadAllNotificationsResponse.Result
+d23e6c7bf4d2ec337399bdc52af47714|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/package.json|30|1|V|json
+	    "@lv-levtech/bsd-common-lib": "0.1.19",
+0913bc1563fde599adf554997e8c6ae4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/package.json|37|1|V|json
+	    "@lv-levtech/socrates-kit-ts": "0.0.9",
+65a0d705ab001fa3226c147c43aa04df|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|5|3|v|typescript
+	BsdCommonError
+e7f24aa568525fe8749af8b4f0012531|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/src/domain/dialogue/UseCases/CommandAcceptAnswer/CommandAcceptAnswerController.ts|132|1|V|typescript
+	          errorsList: [BsdCommonErrorMapper(resultType.toString(), error)]
+e71e7ed68c22ccfa7024f6c04b5bf5bc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|59|1|V|typescript
+	          errorList: BsdCommonErrorMapper(resultType, error)
+4a1306b12ae251c3233bdfa2f04eaec8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|41|24|v|typescript
+	 as BsdCommonError[]
+b13e83f59408c0594fd2e4b193a8eb75|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|5|1|V|typescript
+	  BsdCommonError,
+8accaef567f3ad3d5856da2d140ca18a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Commands/Notification/implements/InAppNotificationSender.ts|3|25|v|typescript
+	../../../../../shared/core/Result
+cfb5e1639aee3706fd7f3fd20b66891e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Entities/Notification.ts|4|13|v|typescript
+	AggregateRoot
+65133bbb26a6496c6efdf47f586509b1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Entities/Notification.ts|6|13|v|typescript
+	UniqueEntityID
+57cc9b210b0e3ff7b28013cec3d36acf|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Entities/Notification.ts|8|13|v|typescript
+	Guard
+c6283fb419c37a98e2bd7f0cffbbcfdb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Entities/Notification.ts|8|1|V|typescript
+	// import { AggregateRoot } from "../../../shared/domain/AggregateRoot"
+	// import { UniqueEntityID } from "../../../shared/domain/UniqueEntityID"
+	// import { Guard } from "../../../shared/core/Guard"
+9cd7da20018a3d80ffee26ebff4f523d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Entities/Notification.ts|8|1|V|typescript
+	// import { Result } from "../../../shared/core/Result"
+31dac8cdd4aaff89d6495e1abba512e1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Entities/Notifications.ts|2|42|v|typescript
+	bsd-common-lib
+c367bed2715133388851b531f5b6e5ed|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/NotificationRepo.ts|3|10|v|typescript
+	ListOption
+c59f9812aad3d595a889eac7e68fa014|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/NotificationRepo.ts|4|10|v|typescript
+	ListResult
+8e957ed2db83877a2480c588c0d3a420|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/NotificationRepo.ts|3|1|V|typescript
+	import { ListOption } from "../../../shared/core/ListOption"
+	import { ListResult } from "../../../shared/core/ListResult"
+38af6a06ef82705fbffacb53eb57dc15|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/NotificationRepo.ts|2|1|V|typescript
+	import { ListOption, ListResult } from "@lv-levtech/socrates-kit-ts"
+d23312f397b475a6598fad2e20fe0195|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/implements/TypeOrmNotificationRepo.ts|3|1|V|typescript
+	import {}
+b5856d0c442ac9d6123092ac4341e7c4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/implements/TypeOrmNotificationRepo.ts|8|1|V|typescript
+	import { ListOption } from "../../../../shared/core/ListOption"
+	import { ListResult } from "../../../../shared/core/ListResult"
+3e11765753b648ae4a11bff47cbf62c8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Mappers/NotificationMap.ts|2|1|V|typescript
+	import }
+2b153c3e6f04b52c8515ce6da29a985e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Mappers/NotificationMap.ts|3|1|V|typescript
+	import { Mapper } from "../../../shared/infra/Mapper"
+5bd5f2c35e3ae265e9efff96a48fc9fb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Mappers/NotificationMap.ts|2|25|v|typescript
+	../../../shared/infra/Mapper
+2f045ba1de1aca4b0822842ddba7d2fd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Mappers/NotificationMap.ts|13|1|V|typescript
+	import { UniqueEntityID } from "../../../shared/domain/UniqueEntityID"
+8eea62084ca7e541d918e823422bd82e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/AnswerId.ts|5|10|v|typescript
+	Result
+1a434befae3f49ae09347ded52032f6f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/AnswerId.ts|7|10|v|typescript
+	Entity
+21cbd088301a8d91e1c09d9bc04c2099|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/AnswerId.ts|6|1|V|typescript
+	import { UniqueEntityID } from "../../../shared/domain/UniqueEntityID"
+	import { Result } from "../../../shared/core/Result"
+	import { Entity } from "../../../shared/domain/Entity"
+44048e9e44adfdf50fa4fee09e3b21da|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/AnswerId.ts|1|1|V|typescript
+	import { Entity, Result, UniqueEntityID } from "@lv-levtech/socrates-kit-ts"
+6ec33504531b8bd213242ba2017c98ed|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/NotificationBody.ts|2|10|v|typescript
+	ValueObject
+2054a26291d1e4d6a67ac486826add0d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/NotificationBody.ts|1|29|v|typescript
+	, UniqueEntityID
+f563025958c2c253b08ce67f97127c8d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/NotificationBody.ts|2|1|V|typescript
+	import { ValueObject } from "../../../shared/domain/ValueObject"
+	import { Result } from "../../../shared/core/Result"
+b03952b8c93c2e01d6ee1ce6e071df19|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/Url.ts|3|1|V|typescript
+	import { Result } from "../../../shared/core/Result"
+6e1475c8f12c6f4d5021b4ddf2e46870|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/ValueObjects/Url.ts|2|1|V|typescript
+	import { ValueObject } from "../../../shared/domain/ValueObject"
+97a2ea274e2e9cd5fda175b7001c3b12|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|9|1|V|typescript
+	// import { Result } from "../../../../../shared/core/Result"
+	// import {
+	//   BadRequestError,
+	//   UnexpectedError
+	// } from "../../../../../shared/core/AppError"
+9029c5dd03413c5c583b56a9593ed020|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotifications.ts|8|10|v|typescript
+	UseCase
+8e855e6ae96b33b9f6ba6b6f20b8edc5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotifications.ts|11|1|V|typescript
+	  BadRequestError,
+	  UnexpectedError
+5832ce11f7ee21de6be8e4fa128e0f3a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotifications.ts|17|1|V|typescript
+	  Either,
+	  Result,
+	  failed,
+	  succeed
+94640237984f6ce6295aec535f13a4e3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotifications.ts|14|1|V|typescript
+	import { UniqueEntityID } from "../../../../../shared/domain/UniqueEntityID"
+	import { UseCase } from "../../../../../shared/core/UseCase"
+	import {
+	  BadRequestError,
+	  UnexpectedError
+	} from "../../../../../shared/core/AppError"
+	import {
+	  Either,
+	  Result,
+	  failed,
+	  succeed
+	} from "../../../../../shared/core/Result"
+ae8d3877edf868462f008fa39eca25c1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotifications.ts|4|1|V|typescript
+	import {
+	  BadRequestError,
+	  Either,
+	  Result,
+	  UnexpectedError,
+	  UniqueEntityID,
+	  UseCase,
+	  failed,
+	  succeed
+	} from "@lv-levtech/socrates-kit-ts"
+8c7543ab7a7972e2cc7567b3e76e06df|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|14|1|V|typescript
+	// import { UniqueEntityID } from "../../../../../shared/domain/UniqueEntityID"
+	// import { UseCase } from "../../../../../shared/core/UseCase"
+	// import {
+	//   BadRequestError,
+	//   UnexpectedError
+	// } from "../../../../../shared/core/AppError"
+	// import {
+	//   Either,
+	//   Result,
+	//   failed,
+	//   succeed
+	// } from "../../../../../shared/core/Result"
+5953063bef46361c8e25a7bb00cee547|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|2|1|V|typescript
+	import { UseCaseError } from "../../../../../shared/core/UseCaseError"
+	import { Result } from "../../../../../shared/core/Result"
+6611b16599adfd1469368b0ce4a16269|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswer.ts|3|1|V|typescript
+	
+	import { UniqueEntityID } from "../../../../../shared/domain/UniqueEntityID"
+	import { UseCase } from "../../../../../shared/core/UseCase"
+	import {
+	  BadRequestError,
+	  UnexpectedError
+	} from "../../../../../shared/core/AppError"
+	import {
+	  Either,
+	  Result,
+	  failed,
+	  succeed
+	} from "../../../../../shared/core/Result"
+c1054cb097cb5cfdf1591e285f90da20|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|13|1|V|typescript
+	} from "@lv-levtech/socrates-kit-ts"
+53583f70050be45ef6141864928fa97f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswerGrpcController.ts|4|1|V|typescript
+	import { Result } from "../../../../../shared/core/Result"
+	import { UnexpectedError } from "../../../../../shared/core/AppError"
+62d64e196f71c9dd17b02c8a6f410614|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Getters/implements/SyncGrpcIdGetter.ts|8|1|V|typescript
+	import { UniqueEntityID } from "../../../../shared/domain/UniqueEntityID"
+36f3f7a3491f5088b68148e782440d4d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Getters/implements/SyncGrpcIdGetter.ts|2|33|v|typescript
+	../../../../shared/domain/UniqueEntityID
+c45a0962a061472c07687b3a79197e7b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|5|1|V|typescript
+	  BsdCommonErrorMapper,
+2751d8a4a27793604783c3cf8fa56238|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|6|17|v|typescript
+	Mapper
+2e36eab1fdb652845af3330f93e0da11|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|32|43|v|typescript
+	value: Result<void>
+bf6c9937c3293d99b94852488bbc74ed|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|6|1|V|typescript
+	  Result,
+a44ec6698c9a79b215a6a8e7e1011ce3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/ReadAllNotificationsGrpcController.ts|1|1|V|typescript
+	import { Metadata } from "grpc"
+	import { inject, injectable } from "tsyringe"
+	import {
+	  BadRequestError,
+	  BsdCommonErrorMapper,
+	  UnexpectedError
+	} from "@lv-levtech/socrates-kit-ts"
+	import {
+	  ReadAllNotificationsRequest,
+	  ReadAllNotificationsResponse
+	} from "../../../../../../generated/useCase"
+	import * as _enum from "../../../../../../generated/enum/command_notification_pb_enum"
+	import { ReadAllNotifications } from "./ReadAllNotifications"
+	import { ReadAllNotificationsDTO } from "./ReadAllNotificationsDTO"
+	
+	@injectable()
+	export class ReadAllNotificationsGrpcController {
+	  constructor(
+	    @inject(ReadAllNotifications)
+	    private sendNotificationByAcceptAnswer: ReadAllNotifications
+	  ) {}
+	
+	  async execute(
+	    req: ReadAllNotificationsRequest,
+	    metadata?: Metadata
+	  ): Promise<ReadAllNotificationsResponse> {
+	    const reqDTO = req as ReadAllNotificationsDTO
+	    const res = await this.sendNotificationByAcceptAnswer.execute(reqDTO)
+	
+	    return res
+	      .map<ReadAllNotificationsResponse>(() => {
+	        return {
+	          result: _enum.ReadAllNotificationsResponse.Result.Success,
+	          errorList: []
+	        }
+	      })
+	      .getOrElse((error) => {
+	        const resultType = ((
+	          errorTypeOf: any
+	        ): _enum.ReadAllNotificationsResponse.Result => {
+	          switch (errorTypeOf) {
+	            case BadRequestError:
+	              return _enum.ReadAllNotificationsResponse.Result.ValidationFailed
+	            case UnexpectedError:
+	            default:
+	              throw new Error(error.errorValue().message)
+	          }
+	        })(error.constructor)
+	
+	        return {
+	          result: resultType,
+	          errorList: [BsdCommonErrorMapper(resultType.toString(), error)]
+	        }
+	      })
+	  }
+	}
+39d4ad772b91d0aca61b54227beb0c53|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/index.ts|1|1|V|typescript
+	export * from "./ReadAllNotifications"
+5ef0c737746fae2ca90e66c39333f8f6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadAllNotifications/index.ts|2|38|v|typescript
+	Errors
+95c84ac90e50c36eba8cb8b7debf8e29|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/index.ts|1|1|V|typescript
+	export * from "./ReadNotification"
+ac8ed5ce60db8495e3bbd42c76226e0e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/index.ts|2|1|V|typescript
+	export * from "./ReadNotificationErrors"
+2925d8c4d0e79582387957e15225e79c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|7|1|V|typescript
+	  ReadAllNotificationsRequest,
+24d7d748f22beda4532076feaeb0911c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|7|1|V|typescript
+	  ReadAllNotificationsRequest,
+	  ReadAllNotificationsResponse,
+636a3a48e6cdfd2337342106c7ca3613|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|9|7|^v|typescript
+	All
+	All
+290472b130454ab447dc26842b8d6d0c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|18|1|V|typescript
+	    @inject(SendNotificationByAcceptAnswerGrpcController)
+	    private sendNotificationByAcceptAnswerGrpcController: SendNotificationByAcceptAnswerGrpcController
+0dca54844f8e5b674ae976133478fb85|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|12|1|V|typescript
+	import { SendNotificationByAcceptAnswerGrpcController } from "./SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswerGrpcController"
+257b4d27063520fcd0edac4bb86587fc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|13|1|V|typescript
+	import { GrpcController } from "./SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswerGrpcController"
+38d7d25f8bdbffe4089a83ad9e87ace1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|12|10|v|typescript
+	ReadAllNotificationsGrpcController
+542b1d096a2e72bd5237d49e1c71dd38|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|12|75|v|typescript
+	/SendNotificationByAcceptAnswerGrpcController
+a3151a7d48a1bb368fba3225141b09ba|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|12|1|V|typescript
+	import { ReadAllNotificationsGrpcController } from "./ReadAllNotifications"
+2fc38755795628db6ce6fd315921db1c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|20|13|v|typescript
+	SendNotificationByAcceptAnswerGrpcController
+d1abdddb039fee0ff24403fd6611b409|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|21|13|v|typescript
+	sendNotificationByAcceptAnswerGrpcController
+ae80b5fe305b58ddd5cb8166331ac1b5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|13|10|v|typescript
+	ReadNotificationGrpcController
+e4c4168412010e9cb5f0be7f20657488|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|20|1|V|typescript
+	    @inject(ReadAllNotificationsGrpcController)
+	    private readAllNotificationsGrpcController: ReadAllNotificationsGrpcController,
+c75a15ad11abdf63cf9d2609dabb3935|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|23|13|v|typescript
+	readAllNotificationsGrpcController
+1b03324401c64a43d4dd6b656704f55e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|27|1|V|typescript
+	
+	  async sendNotificationByAcceptAnswer(
+	    req: SendNotificationByAcceptAnswerRequest,
+	    metadata?: Metadata
+	  ): Promise<SendNotificationByAcceptAnswerResponse> {
+	    return this.sendNotificationByAcceptAnswerGrpcController.execute(
+	      req,
+	      metadata
+	    )
+	  }
+03020e0f3d1d71b098cf2a8beddf2df4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController.ts|33|1|^v|typescript
+	      
+	      
+83c03243d1743410d4e5ba58af593799|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationGrpcController.ts|46|1|V|typescript
+	            case ReadNotificationPermissionDeniedError:
+21563e340ab9e096e87ad38cf4f270fe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationGrpcController.ts|50|22|v|typescript
+	_enum.ReadNotificationResponse.Result.
+ad53ec48e564142ed0b03950a09873b0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationGrpcController.ts|48|13|V|typescript
+	            case ReadNotificationFailedToUpdateEntity:
+3cf63b370d57cb0dc09a19e8434bc537|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationGrpcController.ts|48|15|V|typescript
+	              return _enum.ReadNotificationResponse.Result.
+3edab149f33f37fa5716975afaaa6a60|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/index.ts|1|1|V|typescript
+	export * from "./CommandNotificationGrpcController"
+a4a6eb898178084c802a1dd9ddc6cb35|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/index.ts|2|18|v|typescript
+	CommandNotificationGrpcController
+5d23ab6a38e3f2ba12132cda7b3f03ad|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/index.ts|2|1|V|typescript
+	export * from "./ReadAllNotifications/ReadAllNotifications"
+1197d720008d6b5a13b26d71c96df1ce|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/index.ts|3|1|V|typescript
+	export * from "./ReadAllNotifications/ReadAllNotificationsGrpcController"
+ab505d6c55b5b674e78679619e204b15|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/index.ts|5|1|V|typescript
+	export * from "./ReadNotification/ReadNotification"
+1a2fcbe12e205ae24e91c2f8668377e6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/index.ts|5|1|V|typescript
+	export * from "./ReadNotification/ReadNotificationGrpcController"
+2892c94ffb00bc92d1d84b68018eeee5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/index.ts|6|1|V|typescript
+	export * from "./SendNotificationByAcceptAnswer/SendNotificationByAcceptAnswer"
+bad301cdb124cb87b2c9852f150925d6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|18|6|v|typescript
+	NotificationsGrpcController
+aa62ef8cc0638fef1294c4333c1dcf36|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|21|13|v|typescript
+	QueryNotificationGrpcController
+46da165d19e78316a9f55f2931f49f54|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|7|1|V|typescript
+	  Notifications,
+	  NotificationsGrpcController,
+	  QueryNotificationGrpcController,
+cdb58b3e3fc6067beaff6b956abe06a7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|19|1|v|typescript
+	// import { QueryNotificationGrpcController } from "../domain/notification/UseCases/QueryNotification/QueryNotificationGrpcController"
+c87d2216ecf5a3634a0c208bcfb4ebc8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|19|1|v|typescript
+	// // 
+3dc66b6be13086f2619ebe9b4625efe8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/index.ts|1|1|V|typescript
+	export * from "./Notifications/Notifications"
+6c56e4fd785a21a569b3cccc250573b0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/index.ts|1|18|v|typescript
+	Notifications/Notifications
+3b6a3dae5a291e3e99a2ac29aa1b18db|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|5|1|V|typescript
+	import {
+	  CommandNotificationGrpcController,
+	  SendNotificationByAcceptAnswer,
+	  SendNotificationByAcceptAnswerGrpcController
+	} from "../domain/notification/UseCases/CommandNotification"
+ee97be03cb04119af45014d815621ce1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|14|41|v|typescript
+	Command
+667bde72c8a27c2efbe6109cf8d1b0a1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|16|1|V|typescript
+	//   SendNotificationByAcceptAnswer,
+	//   SendNotificationByAcceptAnswerGrpcController
+938d207ddd1dfd75cb29c9e85d4b1328|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|11|1|V|typescript
+	  CommandNotificationGrpcController,
+	  SendNotificationByAcceptAnswer,
+	  SendNotificationByAcceptAnswerGrpcController
+7d8f431413a732e4be74a4078f45b57e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|11|1|^v|typescript
+	//
+	//
+52e2c8e0382261d4f09380df7bc4a1cd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|21|1|V|typescript
+	  Notifications,
+	  NotificationsGrpcController
+292c5f66acf0695b89605b766061666f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|11|1|V|typescript
+	  SendNotificationByAcceptAnswer,
+	  SendNotificationByAcceptAnswerGrpcController,
+	  CommandNotificationGrpcController
+984d1f0ce2177652a8097b02c0666504|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|15|12|V|typescript
+	// import {
+	//   SendNotificationByAcceptAnswer,
+	//   SendNotificationByAcceptAnswerGrpcController
+	// } from "../domain/notification/UseCases/CommandNotification/SendNotificationByAcceptAnswer"
+	// import { CommandNotificationGrpcController } from "../domain/notification/UseCases/CommandNotification/CommandNotificationGrpcController"
+	import {
+	  Notifications,
+	  NotificationsGrpcController
+	} from "../domain/notification/UseCases/QueryNotification/Notifications"
+	import { QueryNotificationGrpcController } from "../domain/notification/UseCases/QueryNotification/QueryNotificationGrpcController"
+80af99bcfc8c6a370611dc84e745aafd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/index.ts|2|1|V|typescript
+	export * from "./ReadAllNotifications/ReadAllNotifications"
+	export * from "./ReadAllNotifications/ReadAllNotificationsGrpcController"
+	export * from "./ReadNotification/ReadNotification"
+	export * from "./ReadNotification/ReadNotificationGrpcController"
+11bde1963b018209be01bcd2f6c8750c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|9|1|^v|typescript
+	export * from "./
+	export * from "./
+	export * from "./
+	export * from "./
+eaf79e289e4fea29931e89acdf13c95f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|9|23|v|typescript
+	/ReadAllNotifications
+30410e0c71c7711a0351bc281435eb1f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|10|23|v|typescript
+	/ReadAllNotificationsGrpcController"
+8c399668edc6b4306d3d9cb10ad2fb6b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|11|19|v|typescript
+	/ReadNotification"
+827d95acfa59c696ece7fca0148e2dc6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|12|19|v|typescript
+	/ReadNotificationGrpcController"
+f4db04b2a069bac6e39d991f90641301|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|7|1|V|typescript
+	  ReadAllNotifications,
+	  ReadAllNotificationsGrpcController,
+	  ReadNotification,
+	  ReadNotificationGrpcController,
+6525701617073bba2c30ace12ba72155|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|73|3|V|typescript
+	  container.registerSingleton(ReadAllNotificationsGrpcController)
+51688fb888bdffed1a1fce004b615f9f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|75|3|V|typescript
+	  container.registerSingleton(ReadNotificationGrpcController)
+5020977f976f3533e5f767bff4dcf22e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|71|3|V|typescript
+	  container.registerSingleton(NotificationsGrpcController)
+12aa53a8e14ad9c06022beee9c4698cd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|66|3|V|typescript
+	  container.registerSingleton(CommandNotificationGrpcController)
+1b35719f97bede19f8382697c35a4c7f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|73|1|V|typescript
+	
+	  container.registerSingleton(ReadAllNotifications)
+	  container.registerSingleton(ReadNotification)
+b04b6143bf2dc4d179d4e38637e12f31|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/bootstrap/ClassRegistrationForNotification.ts|71|3|V|typescript
+	  container.registerSingleton(CommandNotificationGrpcController)
+	  container.registerSingleton(QueryNotificationGrpcController)
+e7a58debeabd2f9036ead0e73db41e0a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/NotificationRepo.ts|15|1|V|typescript
+	  findOneById(
+	    notificationId: NotificationId,
+	    t?: Transactor
+	  ): Promise<Notification>
+	  findAllUnreadByReceiverUserId(
+	    userId: UserId,
+	    t?: Transactor
+	  ): Promise<Notifications>
+d84f1b0e3809e8b1fadff11bc3b80d21|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Repos/NotificationRepo.ts|25|1|V|typescript
+	  saveWatchedList(notifications: Notifications, t?: Transactor): Promise<void>
+51d598b846a778e6433ffc1add0bae90|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|3|1|V|typescript
+	export class ReadNotificationPermissionDeniedError extends Result<
+	  UseCaseError
+	> {
+	  constructor() {
+	    super(false, {
+	      message: "Permission denied."
+	    } as UseCaseError)
+	  }
+	}
+de2841590ddd47f3d8cbc0c1ad3b7cbb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotificationErrors.ts|4|14|v|typescript
+	ReadNotificationNotificationNotFoundError
+88d1a670290107f1b05deaa7bb1d9674|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|18|1|V|typescript
+	  ReadNotificationNotificationNotFoundError,
+	  ReadNotificationPermissionDeniedError,
+	  ReadNotificationFailedToUpdateEntity
+cb5e100e5a9a3e7f6d1fd97512215282|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/CommandNotification/ReadNotification/ReadNotification.ts|60|16|v|typescript
+	error
+f63dcfe3c89a14e80c9cdf60b4b94f4b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/Entities/Notifications.ts|20|12|v|typescript
+	currentItems
+1f83f3f1214e0e73582d7087d81670f3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.test.ts|6|1|V|typescript
+	// import { ListOption } from "../../../../../shared/core/ListOption"
+	// import { ListResult } from "../../../../../shared/core/ListResult"
+	// import { PaginateOptionDTO } from "../../../../../shared/dto/PaginateDTO"
+ff0ef3bad5ae885eec0d164c3b4249d4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.test.ts|4|1|^v|typescript
+	// import { 
+	// import { 
+	// import { 
+d15d1733c42f7ffcdd5bb0ee37aa8284|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.test.ts|4|11|v|typescript
+	 } from "../../../../../shared/core/ListOption"
+b28bc48461206e292c4bb6113ed8993f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.test.ts|5|11|v|typescript
+	 } from "../../../../../shared/core/ListResult"
+eb71ec9ab44d4d64c456afddc6583827|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.test.ts|6|18|v|typescript
+	 } from "../../../../../shared/dto/PaginateDTO"
+c8ffc8ce103170ed4970394662236a1c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.ts|3|1|^v|typescript
+	import { 
+	import { 
+	import { 
+	import { 
+6392a7aa9f7b2c526e1bb956c85c7980|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.ts|7|1|V|typescript
+	import {
+fb7f052fce45261d8ab4d980d54fd204|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.ts|9|1|V|typescript
+	} from "../../../../../shared/core/AppError"
+	import {
+02cd9710e6eb38895b6859d98d792102|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.ts|13|1|V|typescript
+	} from "../../../../../shared/core/Result"
+a017e7241a77e5e95c12defc0e1e18d7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/NotificationsDTO.ts|4|9|v|typescript
+	../../../../../shared/dto/PaginateDTO
+d02b103b22d177f19df6d20576f14c7e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/index.ts|3|1|V|typescript
+	// export * from "./NotificationsErrors"
+93ffb87a14cf3fe05b123643be118ab9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/NotificationsGrpcController.ts|4|1|^v|typescript
+	import { 
+	import { 
+a4ced99f62f4cda547a512e9bc835a9e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/NotificationsGrpcController.ts|4|9|v|typescript
+	 } from "../../../../../shared/core/Result"
+3aaa216ca26225efdae9a1a14e61c5a0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/NotificationsGrpcController.ts|5|18|v|typescript
+	 } from "../../../../../shared/core/AppError"
+e9a3dab7abfe138677e548b57b5df683|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.test.ts|8|1|V|typescript
+	// import { UseCaseError } from "../../../../../shared/core/UseCaseError"
+	// import { ListOption } from "../../../../../shared/core/ListOption"
+	// import { ListResult } from "../../../../../shared/core/ListResult"
+	// import { PaginateOptionDTO } from "../../../../../shared/dto/PaginateDTO"
+a40df951b97047092b04c2546475140f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/RemindQuestion/RemindQuestionMutation.ts|1|1|V|typescript
+	import { extendType, arg } from 'nexus'
+	import { RemindQuestionResolver } from '../../../resolvers/Mutation/RemindQuestionResolver'
+	
+	export const RemindQuestionMutation = extendType({
+	  type: 'Mutation',
+	  definition(t) {
+	    t.field('remindQuestion', {
+	      type: 'RemindQuestionResult',
+	      args: {
+	        params: arg({
+	          type: "RemindQuestionRequest"
+	        })
+	      },
+	      resolve: RemindQuestionResolver,
+	    })
+	  }
+	})
+	
+4513a938488156f17e888d6fc3b06a44|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationMutation.ts|2|10|v|typescript
+	RemindQuestion
+c59e032ac4389fb41ce1c1793cb1d1d5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationMutation.ts|7|14|v|typescript
+	remindQuestion
+a76145a183f5570f663ffc82c8553e4d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/RemindQuestion/RemindQuestionRequest.ts|1|1|V|typescript
+	import { inputObjectType } from "nexus"
+	
+	export const RemindQuestionRequest = inputObjectType({
+	  name: "RemindQuestionRequest",
+	  definition(t) {
+	    t.nonNull.id("question_id")
+	  }
+	})
+	
+9fbf27469a5e45e423868b6978e561aa|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationMutation.ts|9|1|V|typescript
+	      args: {
+	        params: arg({
+	          type: "ReadNotificationRequest"
+	        })
+	      },
+e164661590e307dcdb63cdce4c3abc4d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/PreRegistAccount/PreRegistAccountResult.ts|1|1|V|typescript
+	import { unionType, objectType } from 'nexus'
+	
+	export const PreRegistAccountResult = unionType({
+	  name: 'PreRegistAccountResult',
+	  description: "",
+	  definition(t) {
+	    t.members(
+	      "PreRegistAccountResultSuccess",
+	      "PreRegistAccountUnknownError"
+	    )
+	  }
+	})
+	
+	export const PreRegistAccountResultSuccess = objectType({
+	  name: 'PreRegistAccountResultSuccess',
+	  definition(t) {
+	    t.string('authorization')
+	    t.string('message')
+	  }
+	})
+	
+	export const PreRegistAccountUnknownError = objectType({
+	  name: 'PreRegistAccountUnknownError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+4b17c385552df29c46de5517858eb420|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|14|14|v|typescript
+	PreRegistAccount
+3039addc7dee59378fc013058c912250|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|17|5|V|typescript
+	    t.string('authorization')
+2f09f97f268def9c911558c456cfef0f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|20|1|V|typescript
+	
+	export const ReadNotificationUnknownError = objectType({
+	  name: 'ReadNotificationUnknownError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+88183b946cc5f0e8c96b2e66e1c74a7e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|21|30|v|typescript
+	Unknown
+f71ccb125f129541bbf276366caf2124|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|21|14|v|typescript
+	ReadNotificationValidationFailedError
+bbcdfc14d371050aece4985733613e5e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|22|10|v|typescript
+	ReadNotificationUnknownError
+4b36dab4f925fdd054741201dece2cdd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|21|1|V|typescript
+	export const ReadNotificationValidationFailedError = objectType({
+	  name: 'ReadNotificationValidationFailedError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+	
+180b13250d9cde4f32c7e611c95789db|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|28|30|v|typescript
+	ValidationFailed
+5e7de6bf2f6a7a8db1bbe7637e79fe42|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|28|1|V|typescript
+	export const ReadNotificationNotificationNotFoundError = objectType({
+	  name: 'ReadNotificationNotificationNotFoundError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+	
+d02ce3cc7780543356a20973bdf0be58|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|35|30|v|typescript
+	NotificationNotFound
+60e83dcd844e85467586105ed9e97d3a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|9|1|V|typescript
+	      "ReadNotificationValidationFailedError",
+776340842a0659bd066534cfa1d5570f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|10|1|V|typescript
+	      "ReadNotificationNotificationNotFoundError",
+5507b250b6bc25ecf41f0f7e17cb9fbb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/index.ts|1|1|V|typescript
+	export * from "./ReadNotificationMutation"
+ef49fd1641d107e638a0f3f0ba8c74ab|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/index.ts|2|18|v|typescript
+	ReadNotificationMutation
+20e9125b8f4bf91949b64ff3d44ad3bb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/index.ts|2|1|V|typescript
+	export * from "./ReadNotificationRequest"
+8066ae95989ef9301a0f05c3033df675|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/index.ts|3|18|v|typescript
+	ReadNotificationRequest
+0064cb03e168109bc4712f8bbd7b51a3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/QuestionTitleHint/QuestionTitleHintRequest.ts|1|1|V|typescript
+	import { inputObjectType } from "nexus"
+	
+	export const QuestionTitleHintRequest = inputObjectType({
+	  name: "QuestionTitleHintRequest",
+	  definition(t) {
+	    t.boolean("is_show")
+	  }
+	})
+2bee57285cac59f62e94f9e0e7c4447d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationRequest.ts|6|16|v|typescript
+	is_show
+84e2c64f38f78ba3ea5c905ab5a2da27|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationRequest.ts|6|7|v|typescript
+	boolean
+df04238e0e01512c72d9b9b15cbc0841|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationRequest.ts|3|14|v|typescript
+	QuestionTitleHintRequest
+d273b98f8b1240c5b8778012b887d1b8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/RemindQuestion/RemindQuestionMutation.ts|9|1|V|typescript
+	      args: {
+	        params: arg({
+	          type: "RemindQuestionRequest"
+	        })
+	      },
+f133505ca6d80f5a5f23e7d4704c0cb9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationMutation.ts|11|18|v|typescript
+	RemindQuestionRequest
+a61b6cc5f8fcc08359811735ac103339|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationResult.ts|1|1|V|typescript
+	import { unionType, objectType } from 'nexus'
+	
+	export const ReadNotificationResult = unionType({
+	  name: 'ReadNotificationResult',
+	  description: "",
+	  definition(t) {
+	    t.members(
+	      "ReadNotificationResultSuccess",
+	      "ReadNotificationValidationFailedError",
+	      "ReadNotificationNotificationNotFoundError",
+	      "ReadNotificationPermissionDeniedError",
+	      "ReadNotificationUnknownError"
+	    )
+	  }
+	})
+	
+	export const ReadNotificationResultSuccess = objectType({
+	  name: 'ReadNotificationResultSuccess',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+	
+	export const ReadNotificationValidationFailedError = objectType({
+	  name: 'ReadNotificationValidationFailedError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+	
+	export const ReadNotificationNotificationNotFoundError = objectType({
+	  name: 'ReadNotificationNotificationNotFoundError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+	
+	export const ReadNotificationPermissionDeniedError = objectType({
+	  name: 'ReadNotificationPermissionDeniedError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+	
+	export const ReadNotificationUnknownError = objectType({
+	  name: 'ReadNotificationUnknownError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+1f07301f5a13fd57e99c922e02217f84|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadAllNotifications/ReadAllNotificationsResult.ts|10|1|V|typescript
+	      "ReadNotificationNotificationNotFoundError",
+	      "ReadNotificationPermissionDeniedError",
+0e7c055a23c01e6ba279b614414d7c28|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadAllNotifications/ReadAllNotificationsResult.ts|29|1|V|typescript
+	export const ReadNotificationNotificationNotFoundError = objectType({
+	  name: 'ReadNotificationNotificationNotFoundError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+	
+	export const ReadNotificationPermissionDeniedError = objectType({
+	  name: 'ReadNotificationPermissionDeniedError',
+	  definition(t) {
+	    t.string('message')
+	  }
+	})
+	
+89e2a21be66b1bb66d627130fad22a87|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadAllNotifications/index.ts|1|1|V|typescript
+	export * from "./ReadAllNotificationsMutation"
+0299a6475005c0d2cb6707dac7ea1098|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadAllNotifications/index.ts|2|18|v|typescript
+	ReadAllNotificationsMutation
+b9f06ef7b812523966f8bc1e1fb50c7c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/ReadNotificationMutation.ts|1|1|V|typescript
+	import { extendType, arg } from 'nexus'
+	// import { ReadNotificationResolver } from '../../../resolvers/Mutation/ReadNotificationResolver'
+	
+	export const ReadNotificationMutation = extendType({
+	  type: 'Mutation',
+	  definition(t) {
+	    t.field('readNotification', {
+	      type: 'ReadNotificationResult',
+	      args: {
+	        params: arg({
+	          type: "ReadNotificationRequest"
+	        })
+	      },
+	      resolve: ReadNotificationResolver,
+	    })
+	  }
+	})
+	
+8024244ae91501507aa19c0ef944ea6e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/index.ts|50|1|V|typescript
+	export * from "./ViewQuestion"
+b0f224e2802e26e062ac9cf8289ccb9c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/index.ts|51|18|v|typescript
+	ViewQuestion
+95992cf801f6af7ce502398d93146bda|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/index.ts|2|1|V|typescript
+	export * from "./ReadNotificationResult"
+af9a5c030071e56b033ab0f3c57b6210|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadNotification/index.ts|2|36|v|typescript
+	sult
+93945a88496d41568f6b0cbed09a9c9b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadAllNotifications/ReadAllNotificationsMutation.ts|9|2|V|typescript
+	      args: {
+	        params: arg({
+	          type: "ReadAllNotificationsRequest"
+	        })
+	      },
+e95dc036ed93469d886d2f81b6e6505e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/AcceptAnswerResolver.ts|1|1|V|typescript
+	import { NexusGenTypes } from '../../nexus-typegen'
+	import { AcceptAnswerResultEnum } from '../../data_sources/ICommandAcceptAnswer'
+	
+	export const AcceptAnswerResolver = async (
+	  _: NexusGenTypes["rootTypes"]["Mutation"],
+	  args: NexusGenTypes["argTypes"]["Mutation"]["acceptAnswer"],
+	  ctx: NexusGenTypes["context"]
+	): Promise<NexusGenTypes["fieldTypes"]["Mutation"]["acceptAnswer"]> => {
+	  if (!ctx.user_id) {
+	    throw new Error("Could not find user")
+	  }
+	
+	  const res = await ctx.dataSources.commandAcceptAnswer.acceptAnswer({
+	    userId: ctx.user_id,
+	    answerId: args.params.answer_id
+	  })
+	
+	  switch (res.result as AcceptAnswerResultEnum) {
+	    case "Success":
+	      return {
+	        __typename: "AcceptAnswerResultSuccess",
+	        message: ""
+	      }
+	    case "ValidationFailed":
+	      return {
+	        __typename: "AcceptAnswerValidationFailedError",
+	        message: ""
+	      }
+	    case "InvalidArgument":
+	      return {
+	        __typename: "AcceptAnswerAlreadyAcceptedError",
+	        message: ""
+	      }
+	    default:
+	      throw new Error("Unexpected Error")
+	  }
+	}
+	
+830f78e090fe8aec00891405dfc14824|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/protodep.toml|16|13|v|
+	staging
+3be3d8f1209a18ba07c20950a1a4d950|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandMyTag.ts|1|1|V|typescript
+	import { Error } from "./Common"
+	
+	export interface ICommandMyTag {
+	  addMyTag(args: AddMyTagArgs): Promise<AddMyTagResult>
+	  removeMyTag(args: RemoveMyTagArgs): Promise<RemoveMyTagResult>
+	}
+	
+	export interface AddMyTagArgs {
+	  userId: string
+	  tagIdList: string[]
+	}
+	
+	export interface AddMyTagResult {
+	  result: AddMyTagResultEnum
+	  errorList: Error[]
+	}
+	
+	export type AddMyTagResultEnum =
+	  | "Unknown"
+	  | "Success"
+	  | "ValidationFailed"
+	  | "UserNotFound"
+	
+	export interface RemoveMyTagArgs {
+	  userId: string
+	  tagId: string
+	}
+	
+	export interface RemoveMyTagResult {
+	  result: RemoveMyTagResultEnum
+	  errorList: Error[]
+	}
+	
+	export type RemoveMyTagResultEnum =
+	  | "Unknown"
+	  | "Success"
+	  | "ValidationFailed"
+	  | "MyTagNotFound"
+	  | "UserNotFound"
+ad7a5fe78f3fe2bc738019a3ee2081eb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|4|3|v|typescript
+	addMyTag
+62d85580f5f90eb9418fd546767aad90|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|5|3|v|typescript
+	removeMyTag
+ca303a8b5a02cefb5ec114a438f585e8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|4|3|v|typescript
+	readAllNotifications
+42ed9c8a5bafb66a857a416a9b4c3d38|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|4|30|v|typescript
+	AddMyTag
+86c800adc50175d33c256e908daf2211|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|5|26|v|typescript
+	RemoveMyTag
+54cb991320d1275c63c31dda0ac03087|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|4|30|v|typescript
+	ReadAllNotificationsArgs
+2dbb1e97431f31c334381f6d0c248275|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|4|65|v|typescript
+	ReadAllNotificationsResult
+d0498aee5121a35287d841d77f35e90e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|11|1|V|typescript
+	export interfcce ReadAllNotificationsResult {
+b2507468f95156358fa490fd543ad2f0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|14|1|v|typescript
+	export
+cb200ce90141540b6a024e38cd0a55fb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|14|1|v|typescript
+	 interfcce
+6afe40d58ab145d5c644b886c26fdf16|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|23|1|V|typescript
+	  result: AddMyTagResultEnum
+	  errorList: Error[]
+f6c9f3359151f4df3c038af1e936e507|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|29|1|V|typescript
+	export type AddMyTagResultEnum =
+	  | "Unknown"
+	  | "Success"
+	  | "ValidationFailed"
+	  | "UserNotFound"
+5a7e4052eace1c1c258c01dc1128dbc0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|30|1|V|typescript
+	  | "Unknown"
+	  | "Success"
+	  | "ValidationFailed"
+	  | "UserNotFound"
+5e349b2189e271e32f633c077d4ff028|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|21|6|v|typescript
+	UserNotFound
+e8c8d0473998e32875252e6124e908b7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|21|1|V|typescript
+	  | "NotifiactionNotfound"
+71b6f3d2e3b7f99e615a5af74b333ccd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|22|6|v|typescript
+	NotifiactionNotfound
+72880d2940e43e28cf22e555803dd2d3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|28|1|V|typescript
+	
+	export interface AddMyTagResult {
+	  result: AddMyTagResultEnum
+	  errorList: Error[]
+	}
+	
+	export type AddMyTagResultEnum =
+	  | "Unknown"
+	  | "Success"
+	  | "ValidationFailed"
+	  | "UserNotFound"
+	
+	export interface RemoveMyTagArgs {
+	  userId: string
+	  tagId: string
+	}
+	
+	export interface RemoveMyTagResult {
+	  result: RemoveMyTagResultEnum
+	  errorList: Error[]
+	}
+	
+	export type RemoveMyTagResultEnum =
+	  | "Unknown"
+	  | "Success"
+	  | "ValidationFailed"
+	  | "MyTagNotFound"
+	  | "UserNotFound"
+38f001af247c5716267132a1132e736f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|7|1|V|typescript
+	
+	export interface ReadAllNotificationsArgs {
+	  userId: string
+	}
+	
+	export interface ReadAllNotificationsResult {
+	  result: AddMyTagResultEnum
+	  errorList: Error[]
+	}
+	
+	export type ReadAllNotificationsResultEnum =
+	  | "Unknown"
+	  | "Success"
+	  | "ValidationFailed"
+	  | "NotifiactionNotFound"
+	  | "PermissionDenied"
+	
+	export interface AddMyTagArgs {
+	  userId: string
+	  tagIdList: string[]
+	}
+5db0fa421ec4cd37c4d6c79f0ca29a2c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|17|13|v|typescript
+	ReadAllNotificationsResultEnum
+9c207c2c654e34308337bae026303c05|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|13|11|v|typescript
+	AddMyTagResultEnum
+07339c044ebadaf8da208805429add8c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|42|1|V|typescript
+	  | "NotifiactionNotFound"
+	  | "PermissionDenied"
+a85ba68b9e8dc3d59b201db9cd4eaa09|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|42|1|V|typescript
+	
+	export interface AddMyTagArgs {
+	  userId: string
+	  tagIdList: string[]
+	}
+771533449d61f1feb0813b4af8bf5673|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|38|13|v|typescript
+	ReadNotificationResultEnum
+6a03f14253e68cc9bbf24ab8d0fc8b61|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationQueryNotification.ts|1|1|V|typescript
+	import { DataSource } from 'apollo-datasource'
+	import { credentials } from "grpc"
+	import { toCommonError } from "../../mappers/bsdCommonMap"
+	import { paginateInfoParser } from "../parser/PaginateInfoParser"
+	import { QueryNotificationTsClient } from '../../../generated/client/query_notification_pb_client'
+	import {
+	  NotificationsRequest,
+	  NotificationsResponse
+	} from "../../../generated/useCase/query_notification_pb_usecase"
+	import { PaginateOption } from "../../../generated/useCase/paginate_option_pb_usecase"
+	import {
+	  IQueryNotification,
+	  NotificationsArgs,
+	  NotificationsResult,
+	  NotificationsResultEnum,
+	  NotificationData
+	} from '../IQueryNotification'
+	
+	export class SocratesNotificationQueryNotification extends DataSource implements IQueryNotification {
+	  private client: QueryNotificationTsClient
+	
+	  constructor({ host }: { host: string }) {
+	    super();
+	    this.client = new QueryNotificationTsClient(
+	      host,
+	      credentials.createInsecure()
+	    )
+	  }
+	
+	  async notifications(args: NotificationsArgs): Promise<NotificationsResult> {
+	    const paginateOption: PaginateOption = {
+	      page: 1,
+	      size: 20,
+	      withPaginateInfo: false,
+	      paginateRange: 0
 	    }
-68ccbdd67f91e394b039423b8a201b5c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/shared/core/Result.ts|18|1|V|typescript
-	    // if (!value) {
-	    //   throw new Error(
-	    //     "InvalidOperation: value cannot be undefined"
-	    //   )
-	    // }
-	
-85dfed29a1d8801afab12c05b701a508|untitled:1|1|1|^v|
-	/
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-5428ca91f98786bd73f039ece86cbcd0|untitled:1|1|1|^v|
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-19223d2c16994a37224cbb5b88724ff0|untitled:1|1|41|^v|
-	\
-	|
-	|
-	|
-	|
-	|
-	|
-a2caf9309b850b0e4c18e1f0fd585a8b|untitled:1|1|1|V|
-	Albert Camus wrote that the only        
-	serious question is whether to kill     
-	yourself or not. Tom Robbins wrote that 
-	the only serious question is whether    
-	time has a beginning and an end. Camus  
-	clearly got up on the wrong side of     
-	bed, and Robbins must have forgotten to 
-	set the alarm.
-93fb40ec02c008121fa9199899b31202|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/Footer.tsx|4|27|v|typescriptreact
-	constants
-cb5feb1b7314637725a2e73bdc9f7295|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/Footer.tsx|4|33|v|typescriptreact
-	Color
-c5b5ff973838ac99e7c742e4dd7a5cbd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/login/MailLogin.tsx|14|3|v|typescriptreact
-	signIn
-e4c402c5f0d2d717c0a48e4ac29c103f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/QuestionDetail.tsx|6|1|V|typescriptreact
-	import { GetQuestionDetail_question } from '../../operations/queries/__generated__/GetQuestionDetail';
-9fff44833b1225e1a779193ad71a5807|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/containers/QuestionDetail.tsx|5|1|V|typescriptreact
-	import { GetQuestionDetail_question } from '../operations/queries/__generated__/GetQuestionDetail';
-874b3fd3559420065f156978bc596121|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/containers/QuestionDetail.tsx|18|36|v|typescriptreact
-	data.
-edd17acde212acdfd545fcc52a49b1b3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/user/AnswerListArea.tsx|4|1|V|typescriptreact
-	import { AnswerListItemProps } from '../../molecules/answer/AnswerListItem';
-468871a9fd260d8372819e0cc8a08b77|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/containers/UserAnswerListArea.tsx|7|18|v|typescriptreact
-	AnswerListProps
-f2e4923d4c6d74834860232b96a0acd5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/user/QuestionListArea.tsx|4|1|V|typescriptreact
-	import { QuestionListItemProps } from '../../molecules/question/QuestionListItem';
-fcd23109cc9be6c56c4474ac517cf399|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|28|17|v|json
-	/**/*.ts
-68267d1309a1af8e8297ef4c3efbcdba|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|28|10|v|json
-	src/
-6ee75fe745d8ce3ca834df54427f8430|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|28|1|V|json
-	    "**/*.stories.tsx"
-5e0bfe3e3e1cf5f82a532eb269d93342|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|29|11|v|json
-	stories
-ac0b925bbe2685c9063e8cb1c0fb07dc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|29|1|V|json
-	    "**/*.stories.tsx",
-b1191e807a761f4fe0bbc4327218a6cb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintrc.json|40|13|v|json
-	dlue
-fee9ed543cc9008a1e58e8981c0e7013|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintrc.json|40|1|V|json
-	        "excludedFiles": "*.test.ts"
-932827a410ae667d24348877f8e2fe1b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintrc.json|41|1|V|json
-	          "*.test.ts",
-1decd22689055765cdd1f9f1552c207f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintignore|1|1|V|
-	**/*.test.ts
-924bba2e95fa113006b9e3334229b342|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|29|18|V|json
-	    "**/*.stories.tsx",
-	    "**/*.test.tsx"
-9f277439d175519a76ecff4f55228343|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Anchor.tsx|29|1|V|typescriptreact
-	  children,
-09cdc5dfb8a71277c68ff335de9bb9cf|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Button.tsx|23|1|V|typescriptreact
-	  href?: string;
-e8fab833730f3a939d0b3812fe043b5d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Button.tsx|24|3|v|typescriptreact
-	href
-118b243013a5937792df96432abd7566|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Button.tsx|1|17|v|typescriptreact
-	ReactNode
-231afe47f3f37d3808096b36c28b4ded|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Txt.tsx|1|17|v|typescriptreact
-	Element
-84cd10951ea60f4eeef3c524fabb73dc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Txt.tsx|1|13|v|typescriptreact
-	, { Element }
-8f549febd76cee3c9dcc898dbaa00bfb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Txt.tsx|13|13|v|typescriptreact
-	 React.
-929d88c7d6a78e85c55b66a4a02166f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/Txt.tsx|1|1|V|typescriptreact
-	import React, { ReactNode } from 'react';
-33d7f8d3b4a233f7503663f4d000aac3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/atoms/TextLabel.tsx|1|1|V|typescriptreact
-	import React from 'react';
-e8701ad48ba05a91604e480dd60899a3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/stories/molecules/sidebar/UserListItem.stories.tsx|14|3|v|typescriptreact
-	user_id
-3ea5f43f14b53853dc4a61fb674fc31b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/components/organisms/login/MailLogin.tsx|12|18|v|typescriptreact
-	MailLoginProps
-94197ed343a32beb100519717c490a13|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/stories/organisms/login/MailLogin.stories.tsx|3|8|v|typescriptreact
-	MailLogin
-74f2397fbf9b2ccc7cd8aa6d7f73fbdd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/stories/organisms/login/MailLogin.stories.tsx|16|16|v|typescriptreact
-	email: string, password: strirng
-1cc7f7dc9c746d4a6670e37657c07543|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|28|1|V|json
-	    "node_modules"
-3ec03583f8eaec275cb2183db769ff47|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/tsconfig.json|29|6|v|json
-	node_modules
-7895bb090142c888d372e2fa8e798183|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.eslintignore|1|1|V|
-	src/stories
-0414ace37b21bcfbcb50c20f1ab16591|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|3|1|V|typescript
-	    dialogue: {
-	      endpoint: ''
-	    },
-0456454f03a4d959eee78a4a13a23524|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|3|5|v|typescript
-	dialogue
-d09f4b02b8c4cb5353599b5debec05be|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|3|5|V|typescript
-	    ''
-69667baed200dc977a6ecc22d25ea19d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|4|1|V|typescript
-	    methods: 'POST,OPTIONS',
-a9ac5a6cc3cbe84f9c18323af2b9007f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|5|5|v|typescript
-	methods
-3451c7d1c633d78f54a5db9cdb8d5465|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|5|18|v|typescript
-	'POST,OPTIONS'
-f96e94253fed6ae65d15a0616bcb8ed9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|11|11|v|typescript
-	datasources
-e6b43b933e64352e19571b7c6930fdb7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|12|3|V|typescript
-	  acc
-64a401c8f9db2e6b6f1d2d5e417d7213|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|13|5|V|typescript
-	    endpoint: string;
-4ac3986f2badc1480056dffb47b37079|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|13|3|V|typescript
-	  };
-9fe965e3078e86876b993dc461778214|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/index.d.ts|12|12|v|typescript
-	DataSourceConfig
-f5afcf47cba1a995c4485e84e1984ecb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|17|17|v|typescript
-	socrates-dialogue:50051
-3c21e26e7df666ed9d2fc4a00c23df5c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|1|v|typescript
-	export default
-fa535ffb25e1fd20341652f9be21e06e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|10|v|typescript
-	Config
-c92a71303bcc841344e07d1bf49d1f9b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|26|v|typescript
-	./config
-77752ec3403503e9e7f24a8f0c4a5dfd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|1|V|typescript
-	import { Config } from ;
-e5fa5cac7e5c0a478a85ec1796ac2f74|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|2|1|V|typescript
-	  cors: {
-	    origin: 'http://localhost:3000',
-	    methods: 'POST,OPTIONS',
-	    credentials: true,
-	  },
-	  dataSource: {
-	    account: {
-	      endpoint: ''
-	    },
-	    dialogue: {
-	      endpoint: 'socrates-dialogue:50051'
-	    },
-	  }
-1883f5edcf0c7ace7f70276146762937|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|1|V|typescript
-	const config: Config = {
-	  cors: {
-	    origin: 'http://localhost:3000',
-	    methods: 'POST,OPTIONS',
-	    credentials: true,
-	  },
-	  dataSource: {
-	    account: {
-	      endpoint: ''
-	    },
-	    dialogue: {
-	      endpoint: 'socrates-dialogue:50051'
-	    },
+	    const request = {
+	      userId: args.userId,
+	      paginateOption: paginateOption
+	    }
+	    const response: NotificationsResponse = await this.client.notifications(request)
+	    return {
+	      result: response.result.toString() as NotificationsResultEnum,
+	      errorsList: response.errorsList.map(toCommonError),
+	      notificationList: response.notificationList as NotificationData[],
+	      paginateInfo: paginateInfoParser(response.paginateInfo),
+	      unreadCount: response.unreadCount
+	    }
 	  }
 	}
+1b1cc7f086b3f074da452bc3129981eb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|9|36|v|typescript
+	query
+fa1c787a3a80174e2f31372e3afe50d7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|9|1|V|typescript
+	  ReadNotificationRequest,
+322d188cb256edf960c84c23ae630e2d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|10|21|v|typescript
+	quest
+66c1b4c7f3dc385b68a9fa903ccd016d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|14|4|v|typescript
+	Query
+c0f0ba811fdc576030d4c7be08773b65|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|3|26|v|typescript
+	MyTag
+0a1d351dad984319816fec360f0d1eb6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|15|3|v|typescript
+	NotificationsArgs
+0e878156c747a9b4fe034eb229d2f51f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|16|3|v|typescript
+	NotificationsResult
+933aba9090ef806a2768b5a04322d9f8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|17|3|v|typescript
+	NotificationsResultEnum
+db5042235431e03ff7bb175852a1c53f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|24|13|V|typescript
+	export interface AddMyTagArgs {
+	  userId: string
+	  tagIdList: string[]
+	}
 	
-c3b7672012ab0e3c87a35725932d6c83|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|16|v|typescript
-	config: 
-1f633fab4707d961d8941f3ae174e8f6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/local_config.ts|1|1|V|typescript
-	const config: Config = {
-	  cors: {
-	    origin: 'http://localhost:3000',
-	    methods: 'POST,OPTIONS',
-	    credentials: true,
-	  },
-	  dataSource: {
-	    account: {
-	      endpoint: ''
-	    },
-	    dialogue: {
-	      endpoint: 'socrates-dialogue:50051'
-	    },
+846757f996b9fa7d3f43d3cdb0ab785d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|24|18|v|typescript
+	ReadNotificationArgs
+1c33723d617c538ae15aa9ab9d30507b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|18|3|v|typescript
+	NotificationData
+46a1231ba75634c2322ba26d30634617|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|18|1|V|typescript
+	  ReadNotificationArgs
+fb6d8b0919e4de69118384eec916cb36|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|28|18|v|typescript
+	ReadNotificationResult
+72cdc849b7acfcf15e39254980e58a6e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|19|1|V|typescript
+	  ReadNotificationResult,
+7665db8e598c9e46fda7a00b38e4f499|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|23|84|v|typescript
+	IQuery
+f73c3d03ba71d7757dff20be2132d38d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|4|1|V|typescript
+	  readAllNotifications(args: ReadAllNotificationsArgs): Promise<ReadAllNotificationsResult>
+	  readNotification(args: ReadNotificationArgs): Promise<ReadNotificationResult>
+fba092ec2361c33f6e4a357f20158a9b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|36|1|V|typescript
+	  readAllNotifications(args: ReadAllNotificationsArgs): Promise<ReadAllNotificationsResult>
+	  readNotification(args: ReadNotificationArgs): Promise<ReadNotificationResult>
+	    const paginateOption: PaginateOption = {
+	      page: 1,
+	      size: 20,
+	      withPaginateInfo: false,
+	      paginateRange: 0
+	    }
+	    const request = {
+	      userId: args.userId,
+	      paginateOption: paginateOption
+	    }
+	    const response: NotificationsResponse = await this.client.notifications(request)
+	    return {
+	      result: response.result.toString() as NotificationsResultEnum,
+	      errorsList: response.errorsList.map(toCommonError),
+	      notificationList: response.notificationList as NotificationData[],
+	      paginateInfo: paginateInfoParser(response.paginateInfo),
+	      unreadCount: response.unreadCount
+	    }
 	  }
 	}
+dec0b39524d0c531b0646dfb65ab9ce5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|7|3|v|typescript
+	ReadAllNotificationsRequest
+d1fc8eaf36937be0c3ba8cfe0a2c1bfe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|36|11|v|typescript
+	response
+2a386878559c6577fa7ce264a21d4b8e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|35|1|V|typescript
+	    const request = args as ReadAllNotificationsRequest
+	    const response: ReadAllNotificationsResponse = await this.client.readAllNotifications(request)
+	    return {
+	      result: response.result.toString() as ReadAllNotificationsResultEnum,
+	      errorList: response.errorList.map(toCommonError)
+	    }
+6b8293d33245d78785c0eb02ba835552|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|51|1|V|typescript
 	
-	export default config
-87a70ce46ea04de7c28dd1e4da31904c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/prd_config.ts|3|14|v|typescript
-	http://localhost:3000
-de03a136c5ea0693aa12933181a52c51|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|13|14|v|typescript
-	socrates-dialogue.socrates-inside:50051
-ebea9b32fc716d4ed9767c65cc3838c5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/config/stg_config.ts|12|18|v|typescript
-	socrates-dialogue:5005
-41ce4d07b8f7953a73d1ed2b95d917e4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|14|13|v|typescript
-	socrates-account.socrates-inside:50051
-22f81a1ec9c2db9fd258a34a3c93e822|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|6|1|V|typescript
-	import { Config } from './config';
-e83a9ba36fd0143e66bc080bf72f11c8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|21|3|V|typescript
-	  const config = 
-421aa90e079fa326b6494f812ad13e79|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/stg_config.ts|3|21|v|typescript
-	localhost
-19db3f49b0651b77ebe00a5b9717146b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/stg_config.ts|3|56|v|typescript
-	:3000
-38cce664636b6f453d5d082936b30ddd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/Dockerfile.local|13|1|V|
-	ENV NODE_APP_INSTANCE=docker
-8b10aa07f19542946925453e7632a66d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/Dockerfile.local|14|9|v|
-	_APP_INSTANCE
-71e91762069749eba792ca2faecbee19|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile.local|11|10|v|
-	APP_INSTANCE
-05b6053c41a2130afd6fc3b158bda4e6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile.local|11|14|v|
-	docker
-ad65d91ba5fc5f4494e00822c04e583b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/index.d.ts|18|3|v|typescript
-	endpoint
-6edaa7b6d26d485f6ca29973abf24fbe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|11|3|V|typescript
-	  config: Config
-befbab863b850330883a8015190e950d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|13|v|typescript
-	: Config
-7b7ea54fbf21f9f22373bea48abe8e61|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/config.d.ts|1|1|V|typescript
-	declare interface Config {
-	  cors: CorsConfig;
-	  dataSource: DataSourcesConfig;
-	}
-	
-	interface CorsConfig {
-	  origin: string[];
-	  methods: string;
-	  credentials: boolean;
-	}
-	
-	interface DataSourcesConfig {
-	  account: DataSourceConfig;
-	  dialogue: DataSourceConfig;
-	}
-	
-	interface DataSourceConfig {
-	  host: string;
-	}
-27aec0f4281e186cd83e5d949edd22d5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/index.ts|1|1|v|typescript
-	declare
-8debb9154d21e0c5084487f7e1f96657|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|34|v|typescript
-	/config
-dc0b72285e4803c98a5f10d22440d686|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|1|V|typescript
-	import { Config } from '.'
-f1cb02bf82ef2026bb7cb67cd60d46c8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|1|v|typescript
-	const config: Config
-659b37829b659b65ff74083fb5fee422|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|17|1|V|typescript
-	export default config
-79ecd69c75dbba33136a242675c7333b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/prd.ts|1|1|v|typescript
-	const config: Config =
-fcd24c5c97d9a753f4654da62d0ec9d9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|1|1|V|typescript
+	  async notifications(args: NotificationsArgs): Promise<NotificationsResult> {
+	    const paginateOption: PaginateOption = {
+	      page: 1,
+	      size: 20,
+	      withPaginateInfo: false,
+	      paginateRange: 0
+	    }
+	    const request = {
+	      userId: args.userId,
+	      paginateOption: paginateOption
+	    }
+	    const response: NotificationsResponse = await this.client.notifications(request)
+	    return {
+	      result: response.result.toString() as NotificationsResultEnum,
+	      errorsList: response.errorsList.map(toCommonError),
+	      notificationList: response.notificationList as NotificationData[],
+	      paginateInfo: paginateInfoParser(response.paginateInfo),
+	      unreadCount: response.unreadCount
+	    }
+	  }
+f29eebd1885fe6b23d240dc6dbdc8322|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/factory/CommandMyTagFactory.ts|1|1|V|typescript
 	import config from 'config'
-ee089a61c8526b65a5146fe8be0f4edb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|28|16|v|typescript
-	ApiUrl.dialogue
-65584ee02afc5668f71c971810ba1be6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|28|54|v|typescript
-	 // TODO: 環境ごとに変えられるようにする
-37b3683ed4a895b2b8833827704f8fdc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|28|1|V|typescript
-	      address: config.get('datasource.dialogue.host')
-8e2a68543100b117ca10fb205841696f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|31|7|V|typescript
-	      address: ApiUrl.account // TODO: 環境ごとに変えられるようにする
-75b605edcac98bc311e21d6908c81023|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|10|1|V|typescript
-	//import { config } from './config' // TODO: 環境ごとに変えられるようにする e.g. dev.ts local.ts stg.ts
-19a5c1e8989085c112543eb4d90cae35|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|33|9|v|typescript
-	{
-	    origin: 'http://localhost:3000', // TODO: 環境によって変える
-	    methods: 'POST,OPTIONS',
-	    credentials: true,
-	  }
-c07e838d18d142720d5cff23f0dea0fe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile|24|1|V|dockerfile
-	ENV NODE_ENV=local
-68488f295ec02602ee556d5e3cfad3af|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/package.json|12|13|v|json
-	SET NODE_ENV=local && 
-606cd13702230997502a9c38e0d022c6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile.local|11|1|v|
-	pSET
-e3e2dc36bfc4ad4d902ecaeec34fbe63|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile.local|11|19|v|
-	 && 
-a04d4e8c515a628908fe109db878b389|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/account_api.ts|41|5|V|typescript
-	    console.log(address)
-cf83cf8a23e1354c4a7d0b5e744ab36c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|28|1|V|json
-	      "environment": [
-	        { "name": "NODE_ENV", "value": "production"}
-	      ],
-9a3f6bbc89432af5a369ec0b596348e4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/server.ts|11|1|V|typescript
-	// 暫定の切り替え
-	// const ApiUrl = {
-	//   dialogue: "socrates-dialogue.socrates-inside:50051",
-	//   account: "socrates-account.socrates-inside:50051"
-	// }
-	// const ApiUrl = {
-	//   dialogue: "socrates-dialogue:50051",
-	//   account: "socrates-account:50051"
-	// }
+	import { DataSource } from 'apollo-datasource'
+	import { SocratesAccountCommandMyTag } from "../socrates-account/SocratesAccountCommandMyTag"
 	
-81219a34fa8b077e82580d87c911895e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile|9|5|v|dockerfile
-	GITHUB
-15b22af177cd6448f8097dcb8af99399|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile|11|45|v|dockerfile
-	GITHUB_AUTH_TOKEN
-0cc25b606fe928a0c9a58f7f209c4495|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|11|7|v|yaml
-	NODE
-177c933d601ce7b454628956bd6a4221|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|11|1|V|yaml
-	      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-a585a6bbec315b29a31d7c99b38d4fdd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|35|1|V|yaml
-	          GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-2a0b530a63e6e7e01ce99e4ee28d9b05|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|39|69|v|yaml
-	 --build-arg GITHUB_AUTH_TOKEN=$NODE_AUTH_TOKE
-4b718b493bd2717fa40916ca45bfbcd9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|11|23|v|yaml
-	 ${{ secrets.GITHUB_TOKEN }}
-39bf69c3662d3ea3b129be2dda069e21|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|23|31|V|yaml
-	      - name: Make .npmrc file
-	        run: |
-	
-c6eb8639300a472efbe3f5f06e97170d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|30|1|V|yaml
-	          image_name: socrates-bff-web
-fec2c9b205b6ae73b40fc10bb1c3f4a0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|31|11|v|yaml
-	image_name
-29df4a7e21b218bfa5755171ed2d1a01|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|31|28|v|yaml
-	socrates-bff-web
-ea27ad978cf1282d706e13493341a903|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|24|1|V|yaml
-	        env:
-	          GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-fdedf516b8f48ea91e812da37912741f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|29|11|V|yaml
-	          build_extra_args
-55b63f4b0fdc35ce97c939e5aceec308|file:///Users/koji.yoshimura/work/socrates-env/local/docker-compose.yml|1|1|V|yaml
-	version: '3.8'
-	services:
-	  socrates-bff:
-	    container_name: socrates-bff
-	    build:
-	      context: ../repos/socrates-bff
-	      dockerfile: Dockerfile.local
-	    links:
-	      - socrates-redis-cluster:redis
-	    volumes:
-	      - ../repos/socrates-bff:/usr/src/socrates-bff
-	      # - /usr/src/socrates-bff/node_modules
-	    ports:
-	      - "4100:4000"
-	    deploy:
-	      resources:
-	        limits:
-	          memory: 512m
-518b30444c73209c6a80d43a97bca77a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|15|1|V|yaml
-	    deploy:
-	      resources:
-	        limits:
-	          memory: 512m
-bd54d8ca11c58503a1d65a84480ea5ae|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|13|1|V|yaml
-	    ports:
-	      - "4100:4000"
-c1e5b11b2b916687eb9018763bd7dde0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|7|29|v|yaml
-	.local
-346c710c32cca636feb0c6e1fc493ccb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|6|17|v|yaml
-	./repos/socrates-bff
-ec6b26e7917edbaf9acd8a500f2f12c5|file:///Users/koji.yoshimura/work/socrates-env/local/docker-compose.yml|57|1|V|yaml
-	    environment:
-e0b200e498597973ff43d9abf28baeeb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|9|1|V|yaml
-	    links:
-	      - socrates-redis-cluster:redis
-9deb1145577bcd531d3e51b5bbc7c609|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|9|1|V|yaml
-	    volumes:
-	      - ../repos/socrates-bff:/usr/src/socrates-bff
-	      # - /usr/src/socrates-bff/node_modules
-69523bdae422d83696c7d7a9e239a1f8|file:///Users/koji.yoshimura/work/socrates-env/local/docker-compose.yml|58|1|V|yaml
-	      MYSQL_ROOT_PASSWORD: password
-4a3c62ba1b09739c8423c0421bf0678f|file:///Users/koji.yoshimura/work/socrates-env/local/docker-compose-published.yml|8|1|V|yaml
-	      args:
-	        - GITHUB_AUTH_TOKEN=${GITHUB_AUTH_TOKEN}
-924d933f4b0c1c53dd3189c12c89b77a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/docker-compose.yml|5|7|V|yaml
-	    environment:
-	      args:
-	        - GITHUB_AUTH_TOKEN=${GITHUB_AUTH_TOKEN}
-fcc0a0caea3b402a90c4bb0287bd39fe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|32|1|V|yaml
-	        env:
-dae13b9c630a5226956fc9500e6e9840|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|31|3|V|yaml
-	          build_extra_args: "--build-arg=GITHUB_AUTH_TOKEN=$NODE_AUTH_TOKEN"
-e7411495ad25acb6e5b7b24a8cc21a5a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|30|11|V|yaml
-	          compose_file: docker-compose.yml
-13b3f3e76ed018a105bdeac77aa8967e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|30|11|v|yaml
-	compose
-ac3a11e31c146bbff8995a7d4a1b8c56|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|30|1|V|yaml
-	          _file: docker-compose.yml
-127285885496c8126ed204deaa35730d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/Dockerfile|10|1|V|dockerfile
-	RUN echo $GITHUB_AUTH_TOKEN
-c361c2dd67bc59c8bd5ca705dd2dfe89|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/yarn.lock|493|13|v|conf
-	https://registry.yarnpkg.com/@jest/types/-/types-26.6.2.tgz#bef5a532030e1d88a2f5a6d933f84e97226ed48e
-83973acb3d3f55a3dea76ea23d1882a6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/yarn.lock|504|13|v|conf
-	https://npm.pkg.github.com/
-1b7cb50f7070a4d29436590f441121e3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/yarn.lock|504|13|v|conf
-	https://npm.pkg.github.com/download/
-1d9945f44ee2a0e0df2c168c46c7f9ff|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/yarn.lock|504|13|v|conf
-	https://npm.pkg.github.com/download/@lv-levtech/bsd-ts-protoc-gen/0.0.13/a0ab888644f612635078471743c78b8d26e85149400d4253713b216032af8f11#21773ebf69f8bc2e421e4c9025a57ca1e39b212d
-28bd2fc0093c6bb216273c1bc89f032b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|25|42|v|yaml
-	GITHUB_TOKEN
-a9159bf2edcd7f4a62fb2190f6243671|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|25|1|V|yaml
-	          GITHUB_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_FOR_GITHUBPKG }}
-f91252b6203b963d239f8c96c0b2e295|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|25|1|V|yaml
-	        env:
-	          GITHUB_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_FOR_GITHUBPKG }}
-a4441399aab209512bf9686790ccab8b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|42|1|V|yaml
-	          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-	          echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
-bb578b6886876c0e2a96c71267d1db02|untitled:1|1|16|v|
-	localhost:4100
-a4bc5a25478e590f33bc9018ef1ab216|untitled:1|1|1|v|
-	curl -i http://http://socrates-bff-web.socrates-inside/graphql/.well-known/apollo/server-health
-955e3130eaac6bae75f0afa41b2ca8a0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|4|1|V|typescript
-	      'https://studio.apollographql.com',
-00b8600acf4841552177def1c285c170|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|5|8|v|typescript
-	https://studio.apollographql.com
-a4cab423de5e82c3adf1f462f8cab5f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.nvmrc|1|1|V|
-	14.15.0
-9ee32b76d1e74255cebf96432513dc36|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.nvmrc|1|1|V|
-	14.15.4
-c7195b63bbeecae739ae0ace41177e6d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|29|11|V|yaml
-	          build_extra_args: "--build-arg GITHUB_AUTH_TOKEN"
-f40f4ed790fffefcb18c7edeef01e0e3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|11|7|V|yaml
-	      GITHUB_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_FOR_GITHUBPKG }}
-1866bbfc6b9cbaae42d42d9d5e64682e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|41|1|V|yaml
-	          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG . --build-arg GITHUB_AUTH_TOKEN
-952ebdaa439e288103d46913bd106548|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-prd.yml|39|7|V|yaml
-	          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-749bef272ef3b9dfb17ac93a7e41a3aa|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/staging.ts|2|1|V|typescript
-	  cors: false,
-7dabdc70e6cbb6a20f61fe68b5f48ba8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|41|68|v|yaml
-	. --build-arg GITHUB_AUTH_TOKEN
-a0a4287c210227d7ca3f9f7adfd836c9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|41|69|v|yaml
-	 --build-arg GITHUB_AUTH_TOKEN
-b8411dd6ec7ec01a07b51ea2d8f92701|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|28|23|v|yaml
-	bsd-notification
-0ea0c24f1d88e9f9666d1895b510af52|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|28|23|v|yaml
-	socrates-dialogue-app
-6d7b00d2479f9e1973122aa0aafa7ed3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|34|27|v|yaml
-	bsd-notification-app
-abe32b04d5249c19a869f9e5e623aa31|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-stg.yml|57|1|V|yaml
-	          service: socrates-dialogue-stg-App-fargate
-1289585da4575926c9eb515b0c09c0df|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-prd.yml|56|11|V|yaml
-	          service: bsd-notification-prd-App-fargate
-8845f23cf78c7ab9f21ea2d7fdb75ab0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-stg.yml|47|27|v|yaml
-	amazon-ecs-render-task-definition
-400c995cdaa0f9819fe1da18e6551641|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-stg.json|40|17|v|json
-	173316779221.dkr.ecr.ap-northeast-1.amazonaws.com/bsd-iam-app:latest
-653141ffbe4fd4ea8b9861f1a84e16bc|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|3|24|v|json
-	arn:aws:iam::720166064830:role/bsd-notification-prd-App-apptaskExecutionRole73129-ID2FL7FTCXS2
-478054c6900eae7d414d3d34beafa203|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|12|29|v|json
-	bsd-notification-prd-App-apptaskappLogGroupDD4CF082-Lk2IARvRkiNr
-07e932fcd783c8deab1d20a49ed80c39|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|3|24|v|json
-	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-dc8fe1d6497ebd23f5975d8d2a1c5e81|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|12|29|v|json
-	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-84a8393f6d411f1d686c13984d6a4382|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|42|17|v|json
-	715443724367.dkr.ecr.ap-northeast-1.amazonaws.com/bsd-echo-server:latest
-441752510361a8ff0b65a43272fe4867|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|64|19|v|json
-	arn:aws:iam::720166064830:role/bsd-notification-prd-App-apptaskTaskRoleB0806AA3-S3VM35K2QAXN
-4b1121a20be63cc7e47ac2dc4040ab96|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-prd.json|65|14|v|json
-	bsd-notification-prd-App-app
-cdb75ccf7c7a4a9f9560f3468d584bc4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|12|29|v|json
-	bsd-echo-server-ins-appfargateTaskDefappLogGroup7D4F6B28-XTT6PQ097DFQ
-04364420e25c512fd958a70738aa8f72|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|12|29|v|json
-	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-3b7ac9a1ad0c8b8743c7f57344b419a4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|3|24|v|json
-	arn:aws:iam::715443724367:role/bsd-echo-server-ins-appfargateTaskDefExecutionRole-19QWGAIY20RL9
-3eb99e62c27f12484303cd5d6c3e1335|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|62|19|v|json
-	arn:aws:iam::715443724367:role/bsd-echo-server-ins-appfargateTaskDefTaskRoleAD852-JKOC65C7589N
-2307a4aef7dd4cf4907bbfa0ddadc6ef|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/fargate/task-definition-ins.json|63|14|v|json
-	app-bsd-echo-server-ins
-2459448536f1ea0397feb0b65e1bf42f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/fargate/task-definition-ins.json|12|30|v|json
-	sd-echo-server-ins-appfargateTaskDefappLogGroup7D4F6B28-XTT6PQ097DFQ
-5decc00a3594ef5184ba2a0e78afface|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/fargate/task-definition-ins.json|12|29|v|json
-	bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-960e0a262a729216df4c514de73c9523|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-stg.yml|58|20|v|yaml
-	socrates-Staging-cluster
-3efcb48dc0c39270981dc0690ec68bd6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|56|20|v|yaml
-	app-cluster-ins
-0c985ebf7e527bb1c7e3930824af352e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|6|9|v|yaml
-	inspection
-1bee0d8aaede29ac319901e96850adee|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|56|29|v|yaml
-	Staging
-81c60edcad533534cbcef603d895d3f3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|28|23|v|yaml
-	bsd-iam
-8f3652b05d85c5f25e5f1643d2f1f8f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|28|23|v|yaml
-	socrates-dialogue-app-inspection
-ed632f040d18bd05d6ad8a2848642f2c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|33|11|v|yaml
-	ECR_REPOSITORY: b
-4393e3aa83c3c22643ec1b273120623a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-stg.yml|57|20|v|yaml
-	socrates-dialogue-stg-App-fargate
-576676957e360ac71b809e95a55a0c43|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|55|20|v|yaml
-	fargate-bsd-iam-ins
-5206d389e0e3115ceef035614d837140|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-ins.yml|25|34|v|yaml
-	STG_
-e669a58317a04ec03063ddcc76ea3ebe|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-ins.yml|28|23|v|yaml
-	socrates-bff-web-ins
-5ef181feeb3bae47a9e7424c12c0d350|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|29|48|v|yaml
-	pection
-b56b447242152a60dcc39546d073a0f6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-stg.yml|29|23|v|yaml
-	socrates-account-app
-95d173dd8cead3ccef45a1318cf6b875|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-stg.yml|57|20|v|yaml
-	socrates-account-stg-App-fargate
-1ba69829f050bfcd5f7d51ba4fb6195a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-prd.yml|56|20|v|yaml
-	bsd-notification-prd-App-fargate
-61f20730025a1d5d5cf73166dc9725a4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|26|34|v|yaml
-	STG_AWS_ACCESS_KEY_ID
-63b333e759dae200948a5621184de876|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|27|34|v|yaml
-	AWS_SECRET_ACCESS_KEY
-9356476709ce3f31fddc199226104f8b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|29|11|v|yaml
-	image_name: s
-f60f1473aa82431fe06b67c458d55b2b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|29|23|v|yaml
-	socrates-account-app-ins
-ac7d724183a76e89d198560878410ca8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-stg.yml|57|1|V|yaml
-	          service: socrates-account-stg-App-fargate
-	          cluster: socrates-Staging-cluster
-0d302e0273af00aec742faf9eee86d52|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|57|1|V|yaml
-	          service: fargate-bsd-iam-ins
-	          cluster: app-cluster-ins
-6dc2b0dc3f3f4c4438b4c98e3b06159a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|58|29|v|yaml
-	deIStaging
-2e75928ee67b546b44d45b1acbea215a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-stg.yml|18|1|V|yaml
-	          aws-access-key-id: ${{ secrets.STG_AWS_ACCESS_KEY_ID }}
-	          aws-secret-access-key: ${{ secrets.STG_AWS_SECRET_ACCESS_KEY }}
-1c70907f68360924d20b383153d05067|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/deploy-ins.yml|18|1|V|yaml
-	          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-	          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-b627d200fc3df31eb068ecdbfa3596f2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/fargate/task-definition-ins.json|3|25|v|json
-	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-899fbd33911b6f2b0de88a1fe646e6c3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|63|19|v|json
-	arn:aws:iam::173316779221:role/socrates-account-stg-App-apptaskTaskRoleB0806AA3-1SAPW15DMPL98
-2eac18f90b4c5c37da3e22c2c29a291d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|3|24|v|json
-	arn:aws:iam::173316779221:role/socrates-account-stg-App-apptaskExecutionRole73129-WPCRU346DAIG
-0cf129b39610780f214e9c4e34577a62|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|62|19|v|json
-	arn:aws:iam::173316779221:role/socrates-front-stg-App-apptaskTaskRoleB0806AA3-1NY4ME41KTOAZ
-edd38e5ed8d698041d75bf11e3201369|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|3|24|v|json
-	arn:aws:iam::173316779221:role/socrates-account-stg-App-apptaskExecutionRole73129-165VOWQJU4UXR
-5a52459ba69076e4fac04f0ca023adc3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|12|81|v|json
-	kP2EPPKW5vR2
-011eb1f67c40b68da97c42dae718300b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/.github/workflows/fargate/task-definition-stg.json|12|29|v|json
-	socrates-account-stg-App-apptaskappLogGroupDD4CF082-MHTMIelNlyBj
-b5d6a91fe2e68730d5e598d70b26d55d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/config/local.ts|1|1|V|typescript
-	export default {
-	  cors: {
-	    origin: [
-	      'https://studio.apollographql.com',
-	      'http://localhost:3000/',
-	    ],
-	    methods: 'POST,OPTIONS',
-	    credentials: true,
-	  },
-	  dataSource: {
-	    account: {
-	      host: 'socrates-account:50051'
-	    },
-	    dialogue: {
-	      host: 'socrates-dialogue:50051'
-	    },
+	export class CommandMyTagFactory {
+	  static create(): DataSource {
+	    return new SocratesAccountCommandMyTag({
+	      host: config.get('dataSource.hosts.socrates_account')
+	    })
 	  }
 	}
+96d008db67fc0b5551a926842bbb6a71|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/factory/CommandNotificaitonFactory.ts|3|37|v|typescript
+	Notification
+e268443e43d93dab7ebef303bbe9642f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/factory/CommandNotificaitonFactory.ts|3|70|v|typescript
+	account
+2699f014ae4e60d6cb30675730ac2940|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/initDataSouces.ts|17|1|V|typescript
+	import { CommandReportFactory } from "./factory/CommandReportFactory"
+4b1b4dc8cf38b3c64b1d657da8f5ac8c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/initDataSouces.ts|18|17|v|typescript
+	Report
+e69965fede867da44ed0744d8f74e03b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/initDataSouces.ts|45|1|V|typescript
+	  commandMyTag: DataSource
+43ef77044a8ca068bbaa8994e8075648|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/initDataSouces.ts|79|1|V|typescript
+	    commandMyTag: CommandMyTagFactory.create(),
+b2e5c1e36c606f3350cb22818f4c4d63|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|14|1|V|typescript
+	import { ICommandMyTag } from "./data_sources/ICommandMyTag"
+5931b0b80b98adda3b1718b8f123b8f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|15|10|v|typescript
+	ICommandNotificaiton
+dfffc13f5ab9232102fde909f1b3e7f7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/context.ts|49|1|V|typescript
+	    commandMyTag: ICommandMyTag
+1d57e680f7005ecfc737f4706033051a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|4|14|v|typescript
+	AcceptAnswer
+83692fc6ec5e555dbbedeadb4b972495|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|8|53|v|typescript
+	acceptAnswer
+193da9d600657fbd011772196a23f771|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|2|10|v|typescript
+	ReadNotification
+7a1a5f3e79fdc91edf2f5ead9d66abb4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|2|72|v|typescript
+	Read
+10a6e5b00dc4f049f97b8b23e1356c7d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|15|5|V|typescript
+	    answerId: args.params.answer_id
+d20c768f30998bba8fc282335ed87b7a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|25|1|V|typescript
+	  userId: string
+8e44f0089b076e18a718eb9ca3d94674|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/ICommandNotification.ts|26|3|v|typescript
+	userId
+c5d268707fec61cfe5caa43f840fb1c4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|29|1|V|typescript
+	    case "InvalidArgument":
+	      return {
+	        __typename: "ReadNotificationAlreadyAcceptedError",
+	        message: ""
+	      }
+079adeea2db7a3d5cb65bdc0e2bb8331|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|24|1|V|typescript
+	    case "ValidationFailed":
+	      return {
+	        __typename: "ReadNotificationValidationFailedError",
+	        message: JSON.stringify(res.errorList)
+	      }
+903af631eb35a874ab95cf437d7adb3d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|29|1|V|typescript
+	    case "NotificationNotFound":
+	      return {
+	        __typename: "ReadNotificationNotificationNotFoundError",
+	        message: JSON.stringify(res.errorList)
+	      }
+4b33a686be73bb172407d73b26356275|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|34|11|v|typescript
+	PermissionDenied
+8e10b78d4cdc1713f461d801b3ca7232|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadAllNotificationsResolver.ts|6|9|v|typescript
+	NexusGenTypes["argTypes"]["Mutation"]["readAllNotifications"]
+a956af09162870af6ce4ebe0f12ccaf8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadAllNotificationsResolver.ts|6|3|v|typescript
+	args
+0016603d1c82ec117757493816bada32|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadAllNotificationsResolver.ts|15|4|V|typescript
+	    notificationId: args.params.notification_id
+7b11356691049b504c93ac84a02541f7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/graphql/Mutation/ReadAllNotifications/ReadAllNotificationsMutation.ts|1|20|v|typescript
+	, arg
+e603907e1f2a309382b1eacbe12f38ca|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadAllNotificationsResolver.ts|20|22|v|typescript
+	ReadAllNotificationsResultSuccess
+4f066c58ab33d44b288c7a04572d86a5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadAllNotificationsResolver.ts|25|22|v|typescript
+	ReadAllNotificationsValidationFailedError
+af8dd8afa75df8cfcab70e0a50db765e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|21|22|v|typescript
+	ReadNotificationResultSuccess
+bc32496dc714f28b55ae28c95c29cb4b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|4|1|V|typescript
+	import { paginateInfoParser } from "../parser/PaginateInfoParser"
+cc6ac3ea73cc783d9d6bcd3c8734c584|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/socrates-notification/SocratesNotificationCommandNotification.ts|11|1|V|typescript
+	import { PaginateOption } from "../../../generated/useCase/paginate_option_pb_usecase"
+9c992bf25c84c7979333211ddd2d1e49|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadNotificationResolver.ts|15|1|V|typescript
+	    userId: "tnkz5u1pukw19b",
+81cbc0cfab845b5a61cfd847ce8b7245|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/resolvers/Mutation/ReadAllNotificationsResolver.ts|14|5|V|typescript
+	    // userId: ctx.user_id,
+9fcbb4f5f132b6d64fd4814cfb02d495|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/test/helpers/createSampleNotificationEntity.ts|2|33|v|typescript
+	../../src/shared/domain/UniqueEntityID
+a66c3d3198371752fb04f1411f16f11d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/test/helpers/createSampleNotificationEntity.ts|11|1|V|typescript
+	// import { UserDisplayName } from "../../src/domain/notification/ValueObjects"
+075e18a896c36fc17a0cdb92fef23564|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.ts|44|14|v|typescript
+	notificationList
+bab2a1f2c6ead58be0f85e6afc417625|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.test.ts|138|1|V|typescript
 	
-958d711dca01abad491e4143054d5025|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|4|1|V|typescript
-	      'https://studio.apollographql.com',
-	      'http://localhost:3000/',
-f5152482e8cabf249828c1d62be8e229|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|2|1|V|typescript
-	  cors: {
-	    origin: [
-	    ],
-	    methods: 'POST,OPTIONS',
-	    credentials: true,
-	  },
-	  dataSource: {
-	    account: {
-	      host: 'socrates-account:50051'
-	    },
-	    dialogue: {
-	      host: 'socrates-dialogue:50051'
-	    },
-	  }
-	}
-7fd9b5b957fb714b4996ba45258055a9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|2|1|V|typescript
-	  cors: {
-	    origin: [
-	    ],
-	    methods: 'POST,OPTIONS',
-	    credentials: true,
-	  },
-	  dataSource: {
-	    account: {
-	      host: 'socrates-account:50051'
-	    },
-	    dialogue: {
-	      host: 'socrates-dialogue:50051'
-	    },
-	  }
-f471c42df9f0e2e11332aaa349584a25|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|20|8|v|typescriptreact
-	BffUrl
-7219cc28bedfedc4ab511989e70c7e60|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|3|5|V|typescript
-	    bff: {
-ea5a1cbe764918679997181a3ea281d3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|4|5|V|typescript
+	  describe.each`
+	    userId      | page  | size    | withPaginateInfo
+	    ${"userId"} | ${-1} | ${20}   | ${true}
+	    ${"userId"} | ${-5} | ${5}    | ${false}
+	    ${"userId"} | ${1}  | ${1000} | ${true}
+	  `(
+	    "paging オプションが異常なパラメータとして、 userId:[$userId], page:[$page], size:[$size], withPaginateInfo:[$withPaginateInfo] が与えられているとき",
+	    ({ userId, page, size, withPaginateInfo }) => {
+	      it(
+	        "予期せぬエラーが発生した場合、適切なメッセージを返すこと",
+	        mockRunner.runTest(async (useCase) => {
+	          /**
+	           * prepare data
+	           */
+	          const paginateOption: PaginateOptionDTO = {
+	            page,
+	            size,
+	            withPaginateInfo
+	          }
+	          const requestDTO: NotificationsRequestDTO = {
+	            userId,
+	            paginateOption
+	          }
+	
+	          /**
+	           * expected values
+	           */
+	          const isSucceed = false
+	          const isFailed = true
+	          const errorMessage = "Bad request."
+	
+	          /**
+	           * mocks
+	           */
+	
+	          /**
+	           * execute
+	           */
+	          const response = await useCase.execute(requestDTO)
+	          console.log(response)
+	
+	          /**
+	           * evaluate result
+	           */
+	          expect(response.isSucceed()).toBe(isSucceed)
+	          expect(response.isFailed()).toBe(isFailed)
+	          const errorResult = response.value.error as UseCaseError
+	          expect(errorResult.message).toBe(errorMessage)
+	        })
+	      )
 	    }
-28183cf9a9c1a4befd23ccc5dbfff661|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|18|17|v|typescriptreact
-	http://localhost:4100/graphql
-cc8efcb655b225c3434c1efbad484996|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|1|1|V|typescript
-	export default {
-	  apollo_client: {
-	    host: 'http://localhost:4100/graphql',
-	  },
-	};
-eb885dce2ba62d39766c64135f6df069|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/production.ts|3|12|v|typescript
-	http://localhost:4100/graphq
-738ebbc6f959d15c0c674a44dd0648d2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|16|20|v|typescriptreact
-	http://socrates-bff-web.socrates-inside/graphql
-ba9d38b6e520202ca49b460abd6abbac|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|15|11|V|typescriptreact
-	// Staging
-	// const BffUrl = 'http://socrates-bff-web.socrates-inside/graphql';
-	// Local
-165d41d90add2ebe248891e625a82255|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|15|1|V|typescriptreact
-	const BffUrl = "http://localhost:4100/graphql"
-d3b2b2a45cf7a6dc4d2f1ee333eb6a06|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|34|34|v|typescriptreact
-	/*{ Component, pageProps }*/
-4bb8df57b23fe40256e79653ea172267|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/tsconfig.json|22|1|V|json
-	        "config/**/*"
-1e9e1ca2b5ef22be358e0ea8d392cdd6|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/config/local.ts|1|1|v|typescript
-	export default 
-1867abff59547d665aa22bdc2ab31bbd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|1|7|v|javascript
-	serverHost
-62dfbe9c32ad10ac2a89f3bcbf9eff21|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|13|61|v|javascript
-	 as string
-0eecce7705e67f996bc6b5b050169c33|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|13|51|v|javascript
-	 as string) 
-b67113a4894f3d566dc96898473177d8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|1|V|typescriptreact
-	// Staging
-	// const BffUrl = 'http://socrates-bff-web.socrates-inside/graphql';
-	// Local
-	const BffUrl = "http://localhost:4100/graphql"
-f5ddaf0ca7929578b408c909429f68f2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|2|3|v|javascript
-	local
-759b74ce43947f5f4c91aeddc3e5bad3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|2|3|v|javascript
-	development
-a38eed1587e694c84744428a28a63796|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|12|9|V|javascript
-	  env: {
-	    SERVER_HOST: serverHosts[process.env.NODE_ENV ?? 'development'],
-	  },
-236664bc45c633f85de1ec2f7d052a5d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|1|1|V|javascript
-	const serverHosts = {
-	  development: 'http://localhost:4100/graphql',
-	  staging: 'http://socrates-bff-web.socrates-inside/graphql',
-	  production: '',
-	};
-	
-652635f04a57284058bc8e7f7f9e92e8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|1|V|typescriptreact
-	console.log(process.env)
-8942d4c48f0740aebca87552832e3e46|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|1|1|V|javascript
-	const serverHosts = {
-	  development: 'http://localhost:4100/graphql',
-	  staging: 'http://socrates-bff-web.socrates-inside/graphql',
-	  production: '',
-	};
-158a47b842c856144c132822a2eeed4f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|1|V|typescriptreact
-	const serverHost = {}
-5d51df6316eb0fe7d879500d03b01988|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|20|v|typescriptreact
-	SERVER_HOST
-f70e02148dca8c656298e29dc0bb66e5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|19|v|typescriptreact
-	(process.env.NODE_ENV as string) ?? 
-987e6a85f41c34ab5a2fe788f063c176|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|19|v|typescriptreact
-	'production'
-feac050db2c9d701f3c22dcc7869cc6b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|15|3|V|typescriptreact
-	  test: '',
-f3d219bc8edd87452c415c6340c6b418|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|54|v|typescriptreact
-	['']
-60288726056270312b614d263868a4fb|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|16|1|V|typescriptreact
-	  inspection: '',
-e1cce3261af9ee01cfe6dcc3360b1c92|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-ins.yml|28|44|v|yaml
-	-app
-229eb4887f0aac5626cab6edaa5a91af|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-ins.yml|28|23|v|yaml
-	socrates-front-web
-8f47ada863bf76eb8b322f39c696230d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/.github/workflows/deploy-ins.yml|58|20|v|yaml
-	socrates-Inspection-cluster
-c026fc496231c925f612ccd3367eb2e7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/src/data_sources/account_api.ts|58|5|V|typescript
-	    console.log(this.client)
-0b0abb4783797fd960ece19bfe42ada8|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-stg.yml|55|20|v|yaml
-	socrates-front-web-stg-App-fargate
-6bad6dbe616c2a04ea6306d17e3c3f30|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-stg.yml|55|11|v|yaml
-	service: s
-03de2a5b040c1ff435f6abdb588b057e|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-stg.yml|55|20|v|yaml
-	socrates-front-stg-App-fargate
-9290abaa098dfc03240776a3792b66f0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-prd.yml|54|20|v|yaml
-	socrates-front-web-prd-App-fargate
-04e0baf70446974c493c5d4125a19df0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/deploy-ins.yml|55|20|v|yaml
-	socrates-front-ins-App-fargate
-1bd69c7df3112fb9a584fbd9edfc6c90|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|20|23|v|json
-	4000
-e93028bdc1aacdfb3687181f2031765d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|20|23|v|json
-	3000
-bdbf65c0985144843465cf6c4785094b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-ins.json|20|23|v|json
-	50051
-ba78deb32c5a539798a9152b9e59c45d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|1|V|typescriptreact
-	console.log(serviceHost);
-c235e62be27c3299c68064ab8db2f5ff|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|13|v|typescriptreact
-	serviceHost
-90869c4c1f85e80db6606d094ceded78|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|1|V|typescriptreact
-	console.log(process.env.NODE_ENV);
-2a00138f040e9bde1b2eaf3c1bb678f5|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|24|1|V|typescriptreact
-	console.log(serverHost[process.env.NODE_ENV]);
-566249dd9bae277189b368d1c5ca71f4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|17|v|typescriptreact
-	iceHost
-35ddec716a644f3b6a3c28b96c17e4ac|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|25|v|typescriptreact
-	 // eslint-disable-line
-cecb420242dd1d6516377030ee7b726d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|1|V|typescriptreact
-	console.log(process.env.NODE_ENV); // eslint-disable-line
-d257e97ef1ee103bb04389ef38ed9dff|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|24|v|typescriptreact
-	.NODE_ENV
-ba3869409291fd13a1151ae44351d167|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|6|1|V|javascript
-	  env: {
-	    NODE_ENV: process.env.NODE_ENV,
-	  },
-4f13e1a2738a9c270c72a7e341875409|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|7|5|v|javascript
-	NODE_ENV
-e900e40bc91d3f9f7f0a99fed68a2e96|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|24|25|v|typescriptreact
-	environment
-91a5c0f0ae9c7a0f68627de146286c27|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|48|V|typescriptreact
-	console.log(serverHost); // eslint-disable-line
-	console.log(process.env); // eslint-disable-line
-	console.log(process.env.environment); // eslint-disable-line
-	console.log(serverHost[process.env.environment]); // eslint-disable-line
-	console.log(serverHost[process.env.environment] ?? serverHost.production); // eslint-disable-line
-292d5a201bb9dff77ab63bd83e9e5876|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|1|V|typescriptreact
-	console.log(serverHost); // eslint-disable-line
-fe62d62f66675ab9332e8fb921025bfd|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|1|V|typescriptreact
-	console.log(process.env.environment); // eslint-disable-line
-	console.log(serverHost[process.env.environment]); // eslint-disable-line
-	console.log(serverHost[process.env.environment] ?? serverHost.production); // eslint-disable-line
-c992a1e93e8c66dd0a344637f7c950c2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/next.config.js|6|1|V|javascript
-	  env: {
-	    environment: process.env.NODE_ENV,
-	  },
-e17e01d69a12661f73cf4658621244da|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|1|V|typescriptreact
-	console.log(process.env); // eslint-disable-line
-	
-42dd0d06e23ea02993bab6e9e2e18810|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|29|1|V|json
-	        { "name": "NODE_ENV", "value": "staging"}
-b9a51efcdc3703c97e74549e4bf2bd0b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|30|20|v|json
-	NODE_
-d058b38bcccab7aeeba8fc249207dc06|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-stg.json|29|9|V|json
-	        { "name": "NODE_ENV", "value": "staging"},
-a46cd8ae80e7f6b1e382b0f0cf20c99d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/.github/workflows/fargate/task-definition-prd.json|29|1|V|json
-	        { "name": "NODE_ENV", "value": "production"}
-500b903529d934afc9885971b180a1c4|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|18|1|V|typescriptreact
-	  staging: 'http://socrates-bff-web.socrates-inside/graphql',
-28eecce841aedb4118f1ae15aad5b686|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|21|42|v|typescriptreact
-	 ?? ''
-889a65415d92b72cffa7df3f8ecf13f9|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|20|31|v|typescriptreact
-	ENVIRONMENT
-bb2adeed97ab251a569e431cd5c6a316|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|16|1|V|typescriptreact
-	  production: 'http://socrates-bff-web.socrates-inside/graphql',
-fd89784e59c72499525556f80289b2c7|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|17|3|v|typescriptreact
-	production
-448b09a971b0690d6f8961e600bfdbab|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|16|16|v|typescriptreact
-	'http://localhost:4100/graphql'
-e77a1fcc189062a548957a52550270d0|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|23|19|v|typescriptreact
-	process?.env?.APP_ENV ?? ''
-6d93d3216dc4a7f5df47d4876fbec4d3|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|22|1|V|typescriptreact
-	
-	
-	
-	
-	
-	
-	
-4061321827e4994390c3440039f41c7f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|11|v|typescriptreact
-	StringKeyObject
-3a6ddcb712cb05eb9e389ce908c5f39a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|11|v|typescriptreact
-	ServerHostInterface
-cb23a2dfe23477a94dc3bfb9a86f44af|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|23|v|typescriptreact
-	nterface
-4ff30ec79d3e66a0b6185df90cee3e8f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-frontend-web/src/pages/_app.tsx|14|11|v|typescriptreact
-	IServerHost
-910a094f303039fc39778602cc28b09c|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-account/src/domain/account/Dtos/Result.ts|1|1|V|typescript
-	export interface ResultDTO<T> {
-	  success: boolean
-	  message?: string
-	  data?: T
-	}
-	
-	export interface SignInResultDTO {
-	  user_id: string
-	}
-	
-	const data: ResultDTO<SignInResultDTO> = {
-	  success: true,
-	  data: {
-	    user_id: "aaaaaaaaaaaaaaaaaaa"
-	  }
-	}
-a4bf9bb84c595050619bc76fc5c918e2|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/package.json|24|6|v|json
-	synth:stg
-7180c2ae85fd3c59715be272f758d76d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|51|1|V|typescript
-	      .withLoadBalancer(fargate.loadBalancer)
-4a1922288f0d0c72648ac146c1df006d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|52|7|V|typescript
-	      .with
-0cf31b2c283ce3431794586df7b0996d|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|42|4|V|typescript
-	    
-6824e69b20d22acc4fd4e97e325ed410|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|44|7|V|typescript
-	      .withDesiredCount
-06610bd92df1389296b0f81920d69b44|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|43|1|V|typescript
-	      .withContext(context)
-4c7d7c0f906c09904a9e7656904e1a97|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-infra/src/front/PrepareFront.ts|44|12|v|typescript
-	Context(context)
-879e950549a9045a0532d74ef0375213|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/.github/workflows/deploy-stg.yml|24|15|v|yaml
-	whoan/docker-build-with-cache-action@v5
-0bbf0f4fe102f46a74528cd6d3b7408e|file:///Users/koji.yoshimura/work/sysm-cdk/library/common/lb/HttpAlbBuilder.ts|3|51|v|typescript
-	aws-elasticloadbalancingv2
-a5e901d11d3528375296b5fd43242e68|file:///Users/koji.yoshimura/.zshrc|109|1|V|zsh
-	alias vf='vim +VimFiler'
-0b7066aea29cec561bd51cb411410adf|file:///Users/koji.yoshimura/.zshrc|110|12|v|zsh
-	vim +VimFiler
-e66bf9a0fecc94cbf363e8167e1f052e|file:///Users/koji.yoshimura/.zshrc|110|1|V|zsh
-	alias vim=nvim
-0dd880ab2b83d61eb1c5ad351ea8714a|file:///Users/koji.yoshimura/work/ddd-forum/src/modules/forum/subscriptions/afterCommentPosted.ts|7|14|v|typescript
-	AfterCommentPosted
-a5ac23e0f70c4fc62b2c9adfd019375f|file:///Users/koji.yoshimura/.zshrc|75|1|V|zsh
-	# export PATH="$HOME/.rbenv/bin:$PATH"
-	# export PATH="$HOME/.rbenv/shims:$PATH"
-44c6ec3c6de1c298ea7986ec02a4db7f|file:///Users/koji.yoshimura/.zshrc|76|1|V|zsh
-	# export PATH="$HOME/.nodebrew/current/bin:$PATH"
+d79b2fb95ef4aa8dcfdc551262e36784|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-notification/src/domain/notification/UseCases/QueryNotification/Notifications/Notifications.ts|48|1|V|typescript
+	      console.log(notificationList)
+461a7c598b641e96d48fc1617694ce58|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-bff/protodep.toml|21|13|v|
+	release/0927-implement-read-notification
+9e6bbb05a7de24cb0fc3d30150ba6e3f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/src/domain/achievement/Services/implements/SocratesAccountQueryAnswerRequestService.ts|10|87|v|typescript
+	どうかの真偽値
+4ea6f36d60ec4e3ced77fc13e683a64a|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/src/domain/achievement/Services/implements/SocratesAccountQueryUserService.ts|10|1|V|typescript
+	   * 
+455ea90b47c2c46d07a07fa22ce3f2e1|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/src/domain/achievement/Services/implements/SocratesDialogueQueryAnswerService.ts|27|32|v|typescript
+	投稿された
+f219e0b350a6bae759c65ca3bf47f8cf|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/src/domain/achievement/Services/implements/SocratesDialogueQueryQuestionPvCountService.ts|8|3|^v|typescript
+	  
+	  
+	  
+985487964e28faf44b8b8f92532e1b1f|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/src/domain/achievement/Services/implements/SocratesDialogueQueryQuestionService.ts|20|1|^v|typescript
+	  
+	  
+	  
+	  
+c6b0ad4394f3c31b3d79ce628d4ed530|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/src/domain/achievement/Services/implements/SocratesDialogueQueryAnswerService.ts|20|9|v|typescript
+	acceptedCountByUserId
+44555ce334e4417e06aacfce544bd88b|file:///Users/koji.yoshimura/work/socrates-env/repos/socrates-dialogue/src/domain/achievement/Services/implements/SocratesDialogueQueryQuestionService.ts|36|1|^v|typescript
+	  
+	  

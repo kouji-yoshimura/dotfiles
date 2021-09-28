@@ -174,6 +174,8 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tyru/open-browser.vim'
 NeoBundle 'ujihisa/neco-look'
+NeoBundle 'vim-scripts/Align'
+NeoBundle 'vim-scripts/SQLUtilities'
 NeoBundle 'vim-scripts/Wombat'
 NeoBundle 'vim-scripts/rdark'
 NeoBundle 'vim-scripts/taglist.vim'
@@ -516,4 +518,5 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_typescript_tsc_args = "--experimentalDecorators --target ES5"
+
 

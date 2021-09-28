@@ -31,6 +31,8 @@ Plug 'leafgarland/typescript-vim'
 "------------------------ THEME ------------------------
 " most importantly you need a good color scheme to write good code :D
 Plug 'dikiaap/minimalist'
+
+Plug 'jparise/vim-graphql'
 call plug#end()
 " == VIMPLUG END ================================
 " == AUTOCMD ================================ 
